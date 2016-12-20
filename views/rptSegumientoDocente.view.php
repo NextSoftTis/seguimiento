@@ -28,7 +28,7 @@
                     <table class="table ">
                         <tbody>
                         <?php
-                        foreach ($arregloDocente as $Docente){?>
+                        foreach ($arregloDocentes as $Docente){?>
 
                         <tr>
                             <td rowspan="2" width="10%"><h6>DOCENTE</h6></td>
@@ -233,7 +233,7 @@
                     </table>
                 </div>
 
-                <div>
+                <div class="row">
                     <table class="table table-bordered">
                         <thead>
                         <tr>
@@ -282,36 +282,10 @@
                         </tr>
                         <tr>
                             <td>06:45-07:30</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i=0;$i<30;$i++){ ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
+
                         </tr>
                         <tr>
                             <td>07:30-08:15</td>
@@ -1016,33 +990,33 @@
                 </div>
 
 
-                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>
-
-                <ul>
-                    <?php
-                    foreach ($arregloDocente as $Docente) { ?>
-                        <li> <?= $Docente['NOMBRE_DOC'] ?></li>
-                        <li> <?= $Docente['APELLPA_DOC'] ?></li>
-
-                    <?php } ?>
-                </ul>
-                <ul>
-                    <?php
-                    foreach ($arregloMateria as $Materia) { ?>
-                        <li> <?= $Materia['NOM_MATE'] ?></li>
-                        <li> <?= $Materia['APELLPA_DOC'] ?></li>
-
-                    <?php } ?>
-                </ul>
-
-
-                <ul>
-                    <?php
-                    foreach ($arregloHorario as $Horario) { ?>
-                        <li> <?= $Horario['NOMBRE_DOC'] ?></li>
-                        <li> <?= $horario['APELLPA_DOC'] ?></li>
-
-                    <?php } ?>
+<!--                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
+<!---->
+<!--                <ul>-->
+<!--                    --><?php
+//                    foreach ($arregloDocente as $Docente) { ?>
+<!--                        <li> --><?//= $Docente['NOMBRE_DOC'] ?><!--</li>-->
+<!--                        <li> --><?//= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
+<!---->
+<!--                    --><?php //} ?>
+<!--                </ul>-->
+<!--                <ul>-->
+<!--                    --><?php
+//                    foreach ($arregloMateria as $Materia) { ?>
+<!--                        <li> --><?//= $Materia['NOM_MATE'] ?><!--</li>-->
+<!--                        <li> --><?//= $Materia['APELLPA_DOC'] ?><!--</li>-->
+<!---->
+<!--                    --><?php //} ?>
+<!--                </ul>-->
+<!---->
+<!---->
+<!--                <ul>-->
+<!--                    --><?php
+//                    foreach ($arregloHorario as $Horario) { ?>
+<!--                        <li> --><?//= $Horario['NOMBRE_DOC'] ?><!--</li>-->
+<!--                        <li> --><?//= $horario['APELLPA_DOC'] ?><!--</li>-->
+<!---->
+<!--                    --><?php //} ?>
                 </ul>
 
             </div>

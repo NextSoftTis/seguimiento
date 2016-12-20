@@ -1,32 +1,20 @@
 <?php session_start();
 
-
 if (isset($_SESSION['usuario'])) {
+
     require_once("db/db.php");
-//Llamada al modelo
-    require_once("models/seguimientodocente.php");
+
+    //Llamada al modelo
+    require_once("models/nombramientodocente.php");
+
     //cargado el modelo
-    $seguimientoDocente = new seguimientodocente_model();
+    $nombramientoDocente = new nombramientodocente_model();
 
-    $arregloDocentes = $seguimientoDocente->get_docentes();
-
-    $ID_DOC = $_GET['ID_DOC'];
-    $arregloDocente = $seguimientoDocente->get_docente($ID_DOC);
-
-    //echo $ID_DOC;
-
-
-    //$arregloDocentesRoles = $seguimientoDocente->get_docente_rol();
-
-    //$arregloMateria = $seguimientoDocente->get_materia();
-//    $arregloGrupo = $seguimientoDocente->get_grupo();
-//    $arregloHorarioMateria = $seguimientoDocente->get_horario_materia();
-//    $arregloFacultad = $seguimientoDocente->get_faculad();
-//    $arregloCarrera = $seguimientoDocente->get_carrera();
-
-
+    require_once("views/global/header.view.php");
+    require_once("views/global/title.view.php");
 //Llamada a la vista
-    require_once("views/rptSegumientoDocente.view.php");
+    require_once("views/rptNombramientoDocente.view.php");
+    require_once("views/global/footer.view.php");
 } else {
     header('Location: login.php');
 } ?>

@@ -11,6 +11,7 @@ private $arregloHorarioMateria;
 private $arregloCarrera;
 private $arregloDocente;
 
+
 public function __construct()
 {
     $this->db = db::conexion();
@@ -55,9 +56,9 @@ public function get_materia()
     return $this->arregloMateria;
 }
 //docente
-public function get_docente($ID_DOCENTE)
+public function get_docente($ID_DOC)
 {
-    $consulta_sql = "select * from DOCENTE where ID_DOCENTE=" . $ID_DOCENTE;
+    $consulta_sql = "select * from DOCENTE where ID_DOCENTE=".$ID_DOC;
     $consulta = $this->db->query($consulta_sql);
     while ($filas = $consulta->fetch_assoc()) {
         $this->arregloDocente[] = $filas;
@@ -69,7 +70,7 @@ public function get_docente($ID_DOCENTE)
 ////materia
 //public function get_materia($ID_MATERIA)
 //{
-//    $consulta_sql = "select * from materia, grupo where ID_DOCENTE=" . $ID_DOCENTE;
+//    $consulta_sql = "select * from materia, docente where ID_DOCENTE=" . $ID_DOCENTE;
 //    $consulta = $this->db->query($consulta_sql);
 //    while ($filas = $consulta->fetch_assoc()) {
 //        $this->arregloDocente[] = $filas;

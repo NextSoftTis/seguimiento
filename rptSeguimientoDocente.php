@@ -10,10 +10,8 @@ if (isset($_SESSION['usuario'])) {
 
     $arregloDocentes = $seguimientoDocente->get_docentes();
 
-    $ID_DOC = $_GET['ID_DOC'];
-    $arregloDocente = $seguimientoDocente->get_docente($ID_DOC);
-
-    //echo $ID_DOC;
+    $ID_DOC = $_GET['ID_DOCENTE'];
+    echo $ID_DOC;
 
 
     //$arregloDocentesRoles = $seguimientoDocente->get_docente_rol();
@@ -21,7 +19,7 @@ if (isset($_SESSION['usuario'])) {
     //$arregloMateria = $seguimientoDocente->get_materia();
 //    $arregloGrupo = $seguimientoDocente->get_grupo();
 //    $arregloHorarioMateria = $seguimientoDocente->get_horario_materia();
-//    $arregloFacultad = $seguimientoDocente->get_faculad();
+//    $arregloFacultad = $seguimientoDocente->get_facultad();
 //    $arregloCarrera = $seguimientoDocente->get_carrera();
 
 
