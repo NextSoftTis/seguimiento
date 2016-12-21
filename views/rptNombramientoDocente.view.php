@@ -2,9 +2,11 @@
     p {
         font-size: 15px;
     }
+ div{border-color: }
 </style>
+
 <div class="main">
-    <div class="container">
+    <div class=container>
 
 
         <script src="estilos/js/jQuery.print.js"></script>
@@ -36,51 +38,51 @@
                 <tbody>
                 <p>1.- Nombre del Profesional para quien se solicita Nombramiento como Docente Extraordinario en la
                     Universidad Mayor de San Simón</p>
-                <table class="table ">
+                <table>
                     <tbody>
 
                     </tbody>
                 </table>
-                <h3>2.-CARRERA QUE SOLICITA LA NOMINACION:</h3>
-                <h3></h3>
-                <h3>3.-DEPARTAMENTO:</h3>
-                <h3></h3>
-                <h3>4.-FACULTAD:</h3>
-                <h3>5.-DIPLOMA ACADEMICO:</h3>
-                <h3>6.-TITULO PROFESIONAL EN PROVISION NACIONAL:</h3>
-                <h3>7.-CATEGORIA DEL NOMBRAMIENTO SOLICITADO:</h3>
+                <p>2.-CARRERA QUE SOLICITA LA NOMINACION:</p>
+                <p></p>
+                <p>3.-DEPARTAMENTO:</p>
+                <p></p>
+                <p>4.-FACULTAD:</p>
+                <p>5.-DIPLOMA ACADEMICO:</p>
+                <p>6.-TITULO PROFESIONAL EN PROVISION NACIONAL:</p>
+                <p>7.-CATEGORIA DEL NOMBRAMIENTO SOLICITADO:</p>
                 <div class="row">
-                    <table class="table">
+                    <table>
                         <tbody>
                         <tr>
-                            <td width="300" class="text-center">INTERINO:</td>
-                            <td width="300" class="text-center">ASISTENTE(A):</td>
+                            <td width="300" class="text-center"><p>INTERINO:</p></td>
+                            <td width="300" class="text-center"><p>ASISTENTE(A):</p></td>
                         </tr>
                         <tr>
-                            <td width="300" class="text-center">INVITADO:</td>
-                            <td width="300" class="text-center">ADJUNTO(B):</td>
+                            <td width="300" class="text-center"><p>INVITADO:</p></td>
+                            <td width="300" class="text-center"><p>ADJUNTO(B):</p></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td width="300" class="text-center">CATEDRATICO(C):</td>
+                            <td width="300" class="text-center"><p>CATEDRATICO(C)</p>:</td>
                         </tr>
                         </tbody>
                     </table>
 
                 </div>
                 <div class="row">
-                    <h3>8.-Asignaturas(s)(materias, módulos, seminario)que dictará:</h3>
-                    <h5>HRS.SEMANA:0 &nbsp; HRS.MES:0</h5>
+                    <p>8.-Asignaturas(s)(materias, módulos, seminario)que dictará:</p>
+                    <p>HRS.SEMANA:0 &nbsp; HRS.MES:0</p>
                 </div>
 
-                <div class="row">
-                    <table class="table">
+                <div>
+                    <table>
                         <tbody>
                         <tr>
-                            <td width="10" class="text-center">A)</td>
-                            <td width="200" class="text-center">materia</td>
-                            <td width="200" class="text-center">cod_materia</td>
-                            <td width="200" class="text-center">grupo</td>
+                            <td width="10" class="text-center"><p>A)</p></td>
+                            <td width="200" class="text-center"><p>materia</p></td>
+                            <td width="200" class="text-center"><p>cod_materia</p></td>
+                            <td width="200" class="text-center"><p>grupo</p></td>
                         </tr>
                         </tbody>
 
@@ -88,56 +90,45 @@
                 </div>
 
 
-                <h3>9.-TIEMPO DE DEDICACION:</h3>
+                <p>9.-TIEMPO DE DEDICACION:</p>
                 <div class="row">
-                    <table class="table">
+                    <table>
                         <tbody>
                         <tr>
-                            <td width="200" class="text-center">TIEMPO PARCIAL</td>
-                            <td width="200" class="text-center">TIEMPO EXCLUSIVO</td>
+                            <td width="200" class="text-center"><p>TIEMPO PARCIAL</p></td>
+                            <td width="200" class="text-center"><p>TIEMPO EXCLUSIVO</p></td>
                         </tr>
                         </tbody>
 
                     </table>
                 </div>
-                <h3>10.-NOMBRAMIENTO APARTIR DE:</h3>
-                <h3>11.-TIEMPO DE DURACION DEL NOMBRAMIENTO:</h3>
-                <h3>12.-FECHA DE SOLICITUD:</h3>
+                <p>10.-NOMBRAMIENTO APARTIR DE:</p>
+                <p>11.-TIEMPO DE DURACION DEL NOMBRAMIENTO:</p>
+                <p>12.-FECHA DE SOLICITUD:</p>
 
             </div>
 
-            <div>
-                <table class="table">
-                    <thead>
-                    <tr>
+            <div class="row">
 
-                    </tr>
+                <table class="table table-bordered">
 
-                    </thead>
                     <tbody>
-                    <tr><td width="20px"><hr></td></tr>
                     <tr>
-                        <td width="20px">JEFE DE DEPARTAMENTO</td>
+
+                        <td colspan="3" class="text-center"><p>JEFE DE DEPARTAMENTO</p></td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" width="200px">
+                            <hr/>
+                            <p>DIRECTOR ACADEMICO F.C.y.T.</p></td>
+                        <td class="text-center" width="100px"></td>
+                        <td class="text-center" width="200px">
+                            <hr/>
+                            <p>Vo.Bo.DECANO</p></td>
                     </tr>
                     </tbody>
                 </table>
             </div>
-
-
-            <div>
-                <table>
-
-                    <tbody>
-                    <tr>
-                        <hr width="200">
-                        <td>DIRECTOR ACADEMICO F.C.y.T.</td>
-
-                        <td>Vo.Bo.DECANO</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-
 
         </div>
     </div>

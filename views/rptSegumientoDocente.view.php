@@ -969,21 +969,26 @@
                 </div>
 
                 <div>
+                    <h1>&nbsp;</h1>
+
+                </div>
+
+                <div>
                     <table>
-                        <thead>
-                            <th width="10% ">________________</th>
-                            <th width="10%">________________</th>
-                            <th width="10%">________________</th>
-                            <th width="10%">________________</th>
-                            <th width="10%">________________</th>
-                        </thead>
+
                         <tbody>
                             <tr>
-                                <td>Firma del Docente</td>
-                                <td>Firma del Jefe de Dpto. o Carrera</td>
-                                <td>Firma Director Académico</td>
-                                <td>Firma Decano</td>
-                                <td>Vo.Bo.Dpto.Personal</td>
+
+                                <td class="text-center" width="300px"><hr/>Firma del Docente</td>
+                                <td width="10px"></td>
+                                <td class="text-center" width="300px"><hr/>Firma del Jefe de Dpto. o Carrera</td>
+                                <td width="10px"></td>
+                                <td class="text-center" width="300px"><hr/>Firma Director Académicoa</td>
+                                <td width="10px"></td>
+                                <td class="text-center" width="300px"><hr/>Firma Decano</td>
+                                <td width="10px"></td>
+                                <td class="text-center" width="300px"><hr/>Vo.Bo.Dpto.Personal</td>
+
                             </tr>
                         </tbody>
                     </table>
