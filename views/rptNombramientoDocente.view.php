@@ -1,12 +1,24 @@
+<style type="text/css">
+    body{text-align: center;}
+    #contenido{width: 800px; margin: 0 auto 0 auto; text-align: left; }
+
+</style>
+
+
 <style>
     p {
         font-size: 15px;
     }
- div{border-color: }
+
+    div {
+        border-color:
+    }
+
+
 </style>
 
 <div class="main">
-    <div class=container>
+    <div class=container >
 
 
         <script src="estilos/js/jQuery.print.js"></script>
@@ -109,19 +121,18 @@
             </div>
 
             <div class="row">
-
-                <table class="table table-bordered">
-
+                <table>
                     <tbody>
                     <tr>
-
-                        <td colspan="3" class="text-center"><p>JEFE DE DEPARTAMENTO</p></td>
+                        <td></td>
+                        <td class="text-center"><h5><hr/>JEFE DE DEPARTAMENTO</h5></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td class="text-center" width="200px">
                             <hr/>
                             <p>DIRECTOR ACADEMICO F.C.y.T.</p></td>
-                        <td class="text-center" width="100px"></td>
+                        <td class="text-center" width="200px"></td>
                         <td class="text-center" width="200px">
                             <hr/>
                             <p>Vo.Bo.DECANO</p></td>

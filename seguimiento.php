@@ -1,7 +1,7 @@
 <?php session_start();
 require 'funciones.php';
 if (isset($_SESSION['usuario'])){
-    $conexion = conexion('modeloSeguimiento','root','');
+    $conexion = conexion('bd_seguimiento','root','');
     if (!$conexion) {
         die();
     }

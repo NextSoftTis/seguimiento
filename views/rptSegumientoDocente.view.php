@@ -3,6 +3,19 @@
 <?php include('views/global/title.view.php') ?>
 
 
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+
+        #contenido {
+            width: 1600px;
+            margin: 0 auto 0 auto;
+            text-align: left;
+        }
+
+    </style>
+
     <div class="main">
         <div class="container">
 
@@ -28,17 +41,18 @@
                     <table class="table ">
                         <tbody>
                         <?php
-                        foreach ($arregloDocentes as $Docente){?>
+                        foreach ($arregloDocentes as $Docente) {
+                            ?>
 
-                        <tr>
-                            <td rowspan="2" width="10%"><h6>DOCENTE</h6></td>
-                            <td class="text-center"><h6><?=$Docente['NOMBRE_DOC']?></h6></td>
-                            <td class="text-center"><h6><?=$Docente['APELLPATERNO_DOC']?></h6></td>
-                            <td class="text-center"><h6><?=$Docente['APELLMATERNO_DOC']?></h6></td>
-                            <td class="text-center"><h6></h6></td>
-                            <td rowspan="2"><h6><b>CI</b></h6></td>
-                            <td><h6><?=$Docente['CI_DOCENTE']?> <?= $Docente['CIEXPEDIDO_DOC']?></h6></td>
-                        </tr>
+                            <tr>
+                                <td rowspan="2" width="10%"><h6>DOCENTE</h6></td>
+                                <td class="text-center"><h6><?= $Docente['NOMBRE_DOC'] ?></h6></td>
+                                <td class="text-center"><h6><?= $Docente['APELLPATERNO_DOC'] ?></h6></td>
+                                <td class="text-center"><h6><?= $Docente['APELLMATERNO_DOC'] ?></h6></td>
+                                <td class="text-center"><h6></h6></td>
+                                <td rowspan="2"><h6><b>CI</b></h6></td>
+                                <td><h6><?= $Docente['CI_DOCENTE'] ?> <?= $Docente['CIEXPEDIDO_DOC'] ?></h6></td>
+                            </tr>
                         <?php } ?>
                         <tr>
                             <td class="text-center"><h6><b>NOMBRE(S)</b></h6></td>
@@ -282,637 +296,125 @@
                         </tr>
                         <tr>
                             <td>06:45-07:30</td>
-                            <?php for ($i=0;$i<30;$i++){ ?>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
                                 <td class="text-center" width="3%"></td>
                             <?php } ?>
 
                         </tr>
                         <tr>
                             <td>07:30-08:15</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
+
                         </tr>
                         <tr>
                             <td>08:15-09:00</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>09:00-09:45</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>09:45-10:30</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>10:30-11:15</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>11:15-12:00</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>12:00-12:45</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>12:45-13:30</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>13:30-14:15</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>14:15-15:00</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>15:00-15:45</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>15:45-16:30</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>16:30-17:15</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>17:15-18:00</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>18:00-18:45</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>18:45-19:30</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>19:30-20:15</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>20:15-21:00</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         <tr>
                             <td>21:00-21:45</td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
-                            <td class="text-center" width="3%"></td>
+                            <?php for ($i = 0; $i < 30; $i++) { ?>
+                                <td class="text-center" width="3%"></td>
+                            <?php } ?>
                         </tr>
                         </tbody>
 
@@ -921,14 +423,14 @@
 
                 <div class="row">
                     <table>
-                      <tbody>
+                        <tbody>
                         <tr>
                             <td width="3%">Hrs. Teoria</td>
                             <td width="3%">Hrs. Práctica</td>
                             <td width="3%">Hrs. Producción</td>
                             <td width="3%">R.C.F.Nº</td>
                             <td width="3%">RESUMEN</td>
-                         </tr>
+                        </tr>
                         <tr>
                             <td width="3%">Hrs. de Investigación</td>
                             <td width="3%">R.C.F.Nº</td>
@@ -977,51 +479,66 @@
                     <table>
 
                         <tbody>
-                            <tr>
+                        <tr>
 
-                                <td class="text-center" width="300px"><hr/>Firma del Docente</td>
-                                <td width="10px"></td>
-                                <td class="text-center" width="300px"><hr/>Firma del Jefe de Dpto. o Carrera</td>
-                                <td width="10px"></td>
-                                <td class="text-center" width="300px"><hr/>Firma Director Académicoa</td>
-                                <td width="10px"></td>
-                                <td class="text-center" width="300px"><hr/>Firma Decano</td>
-                                <td width="10px"></td>
-                                <td class="text-center" width="300px"><hr/>Vo.Bo.Dpto.Personal</td>
+                            <td class="text-center" width="300px">
+                                <hr/>
+                                Firma del Docente
+                            </td>
+                            <td width="10px"></td>
+                            <td class="text-center" width="300px">
+                                <hr/>
+                                Firma del Jefe de Dpto. o Carrera
+                            </td>
+                            <td width="10px"></td>
+                            <td class="text-center" width="300px">
+                                <hr/>
+                                Firma Director Académicoa
+                            </td>
+                            <td width="10px"></td>
+                            <td class="text-center" width="300px">
+                                <hr/>
+                                Firma Decano
+                            </td>
+                            <td width="10px"></td>
+                            <td class="text-center" width="300px">
+                                <hr/>
+                                Vo.Bo.Dpto.Personal
+                            </td>
 
-                            </tr>
+                        </tr>
                         </tbody>
                     </table>
                 </div>
 
 
-<!--                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
-<!---->
-<!--                <ul>-->
-<!--                    --><?php
-//                    foreach ($arregloDocente as $Docente) { ?>
-<!--                        <li> --><?//= $Docente['NOMBRE_DOC'] ?><!--</li>-->
-<!--                        <li> --><?//= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
-<!---->
-<!--                    --><?php //} ?>
-<!--                </ul>-->
-<!--                <ul>-->
-<!--                    --><?php
-//                    foreach ($arregloMateria as $Materia) { ?>
-<!--                        <li> --><?//= $Materia['NOM_MATE'] ?><!--</li>-->
-<!--                        <li> --><?//= $Materia['APELLPA_DOC'] ?><!--</li>-->
-<!---->
-<!--                    --><?php //} ?>
-<!--                </ul>-->
-<!---->
-<!---->
-<!--                <ul>-->
-<!--                    --><?php
-//                    foreach ($arregloHorario as $Horario) { ?>
-<!--                        <li> --><?//= $Horario['NOMBRE_DOC'] ?><!--</li>-->
-<!--                        <li> --><?//= $horario['APELLPA_DOC'] ?><!--</li>-->
-<!---->
-<!--                    --><?php //} ?>
+                <!--                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
+                <!---->
+                <!--                <ul>-->
+                <!--                    --><?php
+                //                    foreach ($arregloDocente as $Docente) { ?>
+                <!--                        <li> --><? //= $Docente['NOMBRE_DOC'] ?><!--</li>-->
+                <!--                        <li> --><? //= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
+                <!---->
+                <!--                    --><?php //} ?>
+                <!--                </ul>-->
+                <!--                <ul>-->
+                <!--                    --><?php
+                //                    foreach ($arregloMateria as $Materia) { ?>
+                <!--                        <li> --><? //= $Materia['NOM_MATE'] ?><!--</li>-->
+                <!--                        <li> --><? //= $Materia['APELLPA_DOC'] ?><!--</li>-->
+                <!---->
+                <!--                    --><?php //} ?>
+                <!--                </ul>-->
+                <!---->
+                <!---->
+                <!--                <ul>-->
+                <!--                    --><?php
+                //                    foreach ($arregloHorario as $Horario) { ?>
+                <!--                        <li> --><? //= $Horario['NOMBRE_DOC'] ?><!--</li>-->
+                <!--                        <li> --><? //= $horario['APELLPA_DOC'] ?><!--</li>-->
+                <!---->
+                <!--                    --><?php //} ?>
                 </ul>
 
             </div>
