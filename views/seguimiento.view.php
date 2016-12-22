@@ -59,8 +59,8 @@
                                                         <td><?php echo $docente['APELLPATERNO_DOC'] ?></td>
                                                         <td><?php echo $docente['APELLMATERNO_DOC'] ?></td>
                                                         <td><a class="btn btn-primary btn-xs" id="boton">seleccionar</a></td>
-                                                        <td><a href="../rptSeguimientoDocente.php?ID_DOC=<?= $docente['ID_DOCENTE']?>" class="btn btn-primary btn-xs" id="btn_ver_reporte">ver reporte</a></td>
-                                                        <td><a href="../rptNombramientoDocente.php?ID_DOC=<?= $docente['ID_DOCENTE']?>" class="btn btn-primary btn-xs" id="btn_ver_nombramiento">ver Nombramiento</a></td>
+                                                        <td><a href="../rptSeguimientoDocente.php?ID_DOCENTE=<?= $docente['ID_DOCENTE']?>" class="btn btn-primary btn-xs" id="btn_ver_reporte">ver Seguimiento</a></td>
+                                                        <td><a href="../rptNombramientoDocente.php?ID_DOCENTE=<?= $docente['ID_DOCENTE']?>" class="btn btn-primary btn-xs" id="btn_ver_nombramiento">ver Nombramiento</a></td>
                                                     </tr>
                                                 <?php endforeach;?>
                                                 </tbody>

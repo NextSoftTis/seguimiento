@@ -80,25 +80,3 @@ public function get_docente($ID_DOC)
 }
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

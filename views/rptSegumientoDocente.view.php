@@ -5,7 +5,7 @@
 
     <style type="text/css">
         body {
-            text-align: center;
+            text-align: left;
         }
 
         #contenido {
@@ -16,9 +16,45 @@
 
     </style>
 
-    <div class="main">
-        <div class="container">
+    <script>
+        /*
+         * @Funcion: imprSelec
+         * @Params: cls-ocultar --> es el class de lo que
+         * se va ocultar en la impresion
+         * areaImpresion: Id del div que se va imprimir
+         * @Descripcion: Imprime un div de html.
+         * @Autor: Jose Luis Yacelly
+         * */
+        function imprSelec(areaImpresion) {
+            //$('#' + areaImpresion).printThis();
 
+            $('.cls-ocultar').hide();
+            var estilos = '';
+            $("link[rel=stylesheet]").each(function () {
+                var href = $(this).attr("href");
+                if (href) {
+                    var media = $(this).attr("media") || "all";
+                    estilos = estilos + '<link type="text/css" rel="stylesheet" href="' + href + '" media="' + media + '">';
+                }
+            });
+
+            var ficha = $('#' + areaImpresion);
+            var ventimp = window.open(' ', 'popimpr');
+            ventimp.document.write('<html><head>' + estilos + '</head><body>');
+            ventimp.document.write(ficha.html());
+            ventimp.document.write('</body>');
+            ventimp.document.write('</html>');
+            ventimp.document.close();
+            ventimp.print();
+            ventimp.close();
+            $('.cls-ocultar').show();
+        }
+    </script>
+    <div class="main">
+
+        <div class="container">
+            <button type="button" onclick="imprSelec('contenido');">Imprimir</button>
+            <fieldset>
 
             <script src="estilos/js/jQuery.print.js"></script>
 
@@ -251,7 +287,7 @@
                     <table class="table table-bordered">
                         <thead>
                         <tr>
-                            <th rowspan="2" class="text-center" width="3%">HORAS</th>
+                            <th rowspan="2" class="text-center" width="7%">HORAS</th>
                             <th colspan="5" class="text-center" width="10%">LUNES</th>
                             <th colspan="5" class="text-center" width="10%">MARTES</th>
                             <th colspan="5" class="text-center" width="10%">MIERCOLES</th>
@@ -512,34 +548,34 @@
                 </div>
 
 
-                <!--                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
-                <!---->
-                <!--                <ul>-->
-                <!--                    --><?php
-                //                    foreach ($arregloDocente as $Docente) { ?>
-                <!--                        <li> --><? //= $Docente['NOMBRE_DOC'] ?><!--</li>-->
-                <!--                        <li> --><? //= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
-                <!---->
-                <!--                    --><?php //} ?>
-                <!--                </ul>-->
-                <!--                <ul>-->
-                <!--                    --><?php
-                //                    foreach ($arregloMateria as $Materia) { ?>
-                <!--                        <li> --><? //= $Materia['NOM_MATE'] ?><!--</li>-->
-                <!--                        <li> --><? //= $Materia['APELLPA_DOC'] ?><!--</li>-->
-                <!---->
-                <!--                    --><?php //} ?>
-                <!--                </ul>-->
-                <!---->
-                <!---->
-                <!--                <ul>-->
-                <!--                    --><?php
-                //                    foreach ($arregloHorario as $Horario) { ?>
-                <!--                        <li> --><? //= $Horario['NOMBRE_DOC'] ?><!--</li>-->
-                <!--                        <li> --><? //= $horario['APELLPA_DOC'] ?><!--</li>-->
-                <!---->
-                <!--                    --><?php //} ?>
-                </ul>
+<!--                                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
+<!--                -->
+<!--                                <ul>-->
+<!--                                    --><?php
+//                                    foreach ($arregloDocente as $Docente) { ?>
+<!--                                        <li> --><?// //= $Docente['NOMBRE_DOC'] ?><!--</li>-->
+<!--                                        <li> --><?// //= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
+<!--                -->
+<!--                                    --><?php //} ?>
+<!--                                </ul>-->
+<!--                                <ul>-->
+<!--                                    --><?php
+//                                    foreach ($arregloMateria as $Materia) { ?>
+<!--                                        <li> --><?// //= $Materia['NOM_MATE'] ?><!--</li>-->
+<!--                                        <li> --><?// //= $Materia['APELLPA_DOC'] ?><!--</li>-->
+<!--                -->
+<!--                                    --><?php //} ?>
+<!--                                </ul>-->
+<!--                -->
+<!--                -->
+<!--                                <ul>-->
+<!--                                    --><?php
+//                                    foreach ($arregloHorario as $Horario) { ?>
+<!--                                        <li> --><?// //= $Horario['NOMBRE_DOC'] ?><!--</li>-->
+<!--                                        <li> --><?// //= $horario['APELLPA_DOC'] ?><!--</li>-->
+<!--                -->
+<!--                                    --><?php //} ?>
+<!--                </ul>-->
 
             </div>
         </div>
