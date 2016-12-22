@@ -3,13 +3,18 @@
 <?php //include('views/global/title.view.php') ?>
 
 
+
     <style type="text/css">
+        td {
+            font-size: 12px;
+        }
+
         body {
             text-align: left;
         }
 
         #contenido {
-            width: 1600px;
+            width: 1200px;
             margin: 0 auto 0 auto;
             text-align: left;
         }
@@ -55,20 +60,21 @@
 
             <div id="contenido">
                 <div class="row">
-                    <div class="col-md-3 text-left">
-                        <h5>UNIVERSIDAD MAYOR DE SAN SIMÓN</h5>
-                        <h4>VICERECTORADO</h4>
+                    <div align="right">
+                        <h6> D.P.A.- D.I.S.U.
+                            <br/>Periodo Académico</h6>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-3 text-left">
+                        <h5>UNIVERSIDAD MAYOR DE SAN SIMÓN
+                        <br/>VICERECTORADO<h5>
+                    </div>
+                    <div align="center">
                         <h3>SEGUIMIENTO ACADEMICO DOCENTE </h3>  <!--&nbsp;I-2015-->
                     </div>
-                    <div class="col-md-3 text-right">
-                        <h4> D.P.A.- D.I.S.U.</h4>
-                        <h6>Periodo Académico</h6>
-                    </div>
+
                 </div>
                 <div class="row">
-                    <table class="table ">
+                    <table>
                         <tbody>
                         <?php
                         foreach ($arregloDocentes as $Docente) {
@@ -94,18 +100,18 @@
                     </table>
                 </div>
                 <div class="row">
-                    <table>
+                    <table class="bordered">
                         <thead>
                         <tr>
                             <th></th>
-                            <th width="30%">FACULTAD</th>
+                            <th width="10%">FACULTAD</th>
                             <th></th>
                             <th width="10%">CARRERA</th>
                             <th></th>
-                            <th width="20%">DEPARTAMENTO</th>
+                            <th width="15%">DEPARTAMENTO</th>
                             <th></th>
-                            <th width="30%">MATERIAS</th>
-                            <th width="20%">SIGLA</th>
+                            <th width="20%">MATERIAS</th>
+                            <th width="10%">SIGLA</th>
                             <th width="10%">H.Teor.</th>
                             <th width="10%">H.Prac.</th>
                             <th width="5%">Anual</th>
@@ -115,14 +121,14 @@
                         <tbody>
                         <tr>
                             <td>1.-</td>
-                            <td width="30%" height="5"><h6>CIENCIAS Y TECNOLOGIA</h6></td>
+                            <td width="10%" height="5"><h6>CIENCIAS Y TECNOLOGIA</h6></td>
                             <td>1.-</td>
                             <td width="10%" height="5"><h6>INF-SIS</h6></td>
                             <td>1.-</td>
-                            <td width="20%" height="2"><h6>INFORMATICA-SISTEMAS</h6></td>
+                            <td width="15%" height="2"><h6>INFORMATICA-SISTEMAS</h6></td>
                             <td>1.-</td>
-                            <td width="30%" height="2"><h6>MATEMATICA COMPUTACIONAL II</h6></td>
-                            <th width="20%" height="2"><h6>2008214</h6>
+                            <td width="20%" height="2"><h6>MATEMATICA COMPUTACIONAL II</h6></td>
+                            <th width="10%" height="2"><h6>2008214</h6>
                             </td>
                             <th width="5%" height="2"><h6>0</h6>
                             </td>
@@ -133,14 +139,14 @@
                         </tr>
                         <tr>
                             <td>2.-</td>
-                            <td width="30%" height="5"><h6>CIENCIAS Y TECNOLOGIA</h6></td>
+                            <td width="10%" height="5"><h6>CIENCIAS Y TECNOLOGIA</h6></td>
                             <td>2.-</td>
                             <td width="10%" height="5"><h6>INF-SIS</h6></td>
                             <td>2.-</td>
-                            <td width="20%" height="2"><h6>INFORMATICA-SISTEMAS</h6></td>
+                            <td width="15%" height="2"><h6>INFORMATICA-SISTEMAS</h6></td>
                             <td>2.-</td>
-                            <td width="40%" height="2"><h6>BASE DE DATOS DISTRIBUIDAS</h6></td>
-                            <td width="20%" height="2"><h6>155555</h6></td>
+                            <td width="20%" height="2"><h6>BASE DE DATOS DISTRIBUIDAS</h6></td>
+                            <td width="10%" height="2"><h6>155555</h6></td>
                             <th width="5%" height="2"><h6>0</h6>
                             </td>
                             <th width="5%" height="2"><h6>0</h6>
@@ -149,14 +155,14 @@
                             <td><input type="checkbox" checked></td>
                         </tr>
                         <tr>
-                            <td>3.-</td>
-                            <td width="30%"><h6></h6></td>
                             <td>3.-</td>
                             <td width="10%"><h6></h6></td>
                             <td>3.-</td>
-                            <td width="20%"><h6></h6></td>
+                            <td width="10%"><h6></h6></td>
                             <td>3.-</td>
-                            <td width="40%"><h6></h6></td>
+                            <td width="15%"><h6></h6></td>
+                            <td>3.-</td>
+                            <td width="20%"><h6></h6></td>
                             <td><h6></h6></td>
                             <th width="5%"><h6></h6>
                             </td>
@@ -281,7 +287,7 @@
                     <table class="table table-bordered">
                         <thead>
                         <tr>
-                            <th rowspan="2" class="text-center" width="7%">HORAS</th>
+                            <th rowspan="2" class="text-center" width="10%">HORAS</th>
                             <th colspan="5" class="text-center" width="10%">LUNES</th>
                             <th colspan="5" class="text-center" width="10%">MARTES</th>
                             <th colspan="5" class="text-center" width="10%">MIERCOLES</th>
