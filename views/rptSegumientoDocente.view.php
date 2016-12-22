@@ -1,6 +1,6 @@
-<?php include("views/global/header.view.php") ?>
-
-<?php include('views/global/title.view.php') ?>
+<?php //include("views/global/header.view.php") ?>
+<!---->
+<?php //include('views/global/title.view.php') ?>
 
 
     <style type="text/css">
@@ -17,14 +17,7 @@
     </style>
 
     <script>
-        /*
-         * @Funcion: imprSelec
-         * @Params: cls-ocultar --> es el class de lo que
-         * se va ocultar en la impresion
-         * areaImpresion: Id del div que se va imprimir
-         * @Descripcion: Imprime un div de html.
-         * @Autor: Jose Luis Yacelly
-         * */
+
         function imprSelec(areaImpresion) {
             //$('#' + areaImpresion).printThis();
 
@@ -52,13 +45,14 @@
     </script>
     <div class="main">
 
+
         <div class="container">
             <button type="button" onclick="imprSelec('contenido');">Imprimir</button>
             <fieldset>
 
             <script src="estilos/js/jQuery.print.js"></script>
 
-            <button type="button" onclick="$.print('#contenido');" class="btn btn-primary">imprimir</button>
+
             <div id="contenido">
                 <div class="row">
                     <div class="col-md-3 text-left">

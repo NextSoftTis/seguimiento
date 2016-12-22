@@ -10,6 +10,7 @@ private $arregloGrupo;
 private $arregloHorarioMateria;
 private $arregloCarrera;
 private $arregloDocente;
+private $arregloFacultad;
 
 
 public function __construct()
@@ -25,6 +26,7 @@ public function __construct()
     $this->arregloCarrera = array();
 
     $this->arregloDocente = array();
+    $this->arregloFacultad = array();
 
 }
 
@@ -65,6 +67,15 @@ public function get_docente($ID_DOC)
     }
     return $this->arregloDocente;
 
+}
+public function get_facultad()
+{
+    $consulta_sql = "select * from FACULTAD";
+    $consulta = $this->db->query($consulta_sql);
+    while ($filas = $consulta->fetch_assoc()){
+        $this->arregloFacultad[] = $filas;
+    }
+    return $this->arregloFacultad;
 }
 
 ////materia

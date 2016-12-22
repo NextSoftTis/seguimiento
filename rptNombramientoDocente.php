@@ -10,8 +10,8 @@ if (isset($_SESSION['usuario'])) {
     //cargado el modelo
     $nombramientoDocente = new nombramientodocente_model();
 
-    require_once("views/global/header.view.php");
-    require_once("views/global/title.view.php");
+//    require_once("views/global/header.view.php");
+//    require_once("views/global/title.view.php");
 //Llamada a la vista
     require_once("views/rptNombramientoDocente.view.php");
     require_once("views/global/footer.view.php");

@@ -9,9 +9,12 @@ if (isset($_SESSION['usuario'])) {
     $seguimientoDocente = new seguimientodocente_model();
 
     $arregloDocentes = $seguimientoDocente->get_docentes();
+//    $arregloFacultad = $seguimientoDocente->get_facultad()
 
 //    $ID_DOC = $_GET['ID_DOCENTE'];
   //  echo $ID_DOC;
+
+
 
 
     //$arregloDocentesRoles = $seguimientoDocente->get_docente_rol();
