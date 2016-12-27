@@ -20,10 +20,10 @@ $(document).ready(function(){
             type: 'GET',
             url: "capturado.php?var_js="+ var_js,
             success: function(data){
-                $("#response") .html(data)
+                $("#resp") .html(data)
             },
             error: function(data){
-                $("#response") .html(data)
+                $("#resp") .html(data)
             }
         });
     })
