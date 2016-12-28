@@ -59,7 +59,7 @@
         <div id="contenido">
             <div class="row">
                 <div align="right">
-                    <h6>FOR DPA </h6>
+                    <h4>FOR DPA </h4>
                 </div>
                 <div align="left">
 
@@ -83,7 +83,22 @@
                     Universidad Mayor de San Simón</p>
                 <table>
                     <tbody>
+                        <td>BENJAMIN CARTAGENA SUAREZ</td>
 
+<!--                    --><?php
+//                    foreach ($arregloDocentes as $Docente) {
+//                        ?>
+<!---->
+<!--                        <tr>-->
+<!--                            <td rowspan="2" width="10%"><h6>DOCENTE</h6></td>-->
+<!--                            <td class="text-center"><h6>--><?//= $Docente['NOMBRE_DOC'] ?><!--</h6></td>-->
+<!--                            <td class="text-center"><h6>--><?//= $Docente['APELLPATERNO_DOC'] ?><!--</h6></td>-->
+<!--                            <td class="text-center"><h6>--><?//= $Docente['APELLMATERNO_DOC'] ?><!--</h6></td>-->
+<!--                            <td class="text-center"><h6></h6></td>-->
+<!--                            <td rowspan="2"><h6><b>CI</b></h6></td>-->
+<!--                            <td width="20%"><h6>--><?//= $Docente['CI_DOCENTE'] ?><!-- --><?//= $Docente['CIEXPEDIDO_DOC'] ?><!--</h6></td>-->
+<!--                        </tr>-->
+<!--                    --><?php //} ?>
                     </tbody>
                 </table>
                 <p>2.-CARRERA QUE SOLICITA LA NOMINACION:</p>
@@ -160,7 +175,7 @@
                     <tbody>
                     <tr>
                         <td></td>
-                        <td class="text-center"><h5><hr/>JEFE DE DEPARTAMENTO</h5></td>
+                        <td class="text-center"><hr/><p>JEFE DE DEPARTAMENTO</p></td>
                         <td></td>
                     </tr>
                     <tr>
