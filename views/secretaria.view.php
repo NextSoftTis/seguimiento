@@ -1,6 +1,5 @@
 <?php include("views/global/header.view.php")?>
 <?php include("views/global/title.view.php")?>
-
     <div class="contenedor-principal">
         <div class="container nt-menu-cuerpo">
             <div class="row navbar">
@@ -13,7 +12,6 @@
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="nombramiento.php">Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Auxliar</a></li>
                     </ul>
                 </div>
 
@@ -26,7 +24,6 @@
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="seguimiento.php">Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Auxliar</a></li>
 
                     </ul>
 
@@ -39,9 +36,8 @@
 
                     <span class="caret"></span>
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Docente</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="reporteDocente.php">Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Auxliar</a></li>
 
                     </ul>
 
@@ -53,9 +49,11 @@
 
                     <span class="caret"></span>
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Docente</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="listaDocentes.php"">Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="">Auxliar</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="listaFacultades.php">Facultades</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="listaCarreras.php">Carreras</a></li>
 
                     </ul>
 
@@ -69,16 +67,19 @@
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroDocente.php">Registro Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroAuxiliar.php">Registro Auxiliar</a></li>
-
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="cargos.php">Registro Roles</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroSecretaria.php">Registro secretaria</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroFacultad.php">Registro Facultad</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroCarrera.php">Registro Carrera</a></li>
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroMaterias.php">Registro Materias</a></li>
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroGrupos.php">Registro Grupos</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registroSecretaria.php">Registro secretaria</a></li>
-
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="listaDocentesAsignacion.php">asignacion docente grupo</a></li>
                     </ul>
 
                 </div>

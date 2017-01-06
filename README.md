@@ -1,2 +1,1 @@
 # seguimiento
-prueba
