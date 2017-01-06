@@ -1,4 +1,5 @@
 <style type="text/css">
+    
     body {
         text-align: left;
     }
@@ -13,6 +14,9 @@
 
 
 <style>
+    td{
+        font-size: 12px;
+    }
     p {
         font-size: 12px;
     }
@@ -95,30 +99,27 @@
 
                             <tr>
 
-                                <td><?= strtoupper($Docente['NOMBRE_DOC']) ?></td>
-                                <td><?= strtoupper($Docente['APELLPATERNO_DOC']) ?></td>
-                                <td><?= strtoupper($Docente['APELLMATERNO_DOC']) ?></td>
+                                <td><b><?= strtoupper($Docente['NOMBRE_DOC']) ?></b></td>
+                                <td><b><?= strtoupper($Docente['APELLPATERNO_DOC']) ?></b></td>
+                                <td><b><?= strtoupper($Docente['APELLMATERNO_DOC']) ?></b></td>
 
                             </tr>
                         <?php } ?>
                         </tbody>
                     </table>
+
+
                     <?php
                     foreach ($arregloFacultades as $facultad) { ?>
-                        <p>2.-CARRERA QUE SOLICITA LA NOMINACION:</p>
-                        <td><?= strtoupper($facultad['NOMBRE_CARRERA']) ?></td>
-                    <?php } ?>
-                        <p>3.-DEPARTAMENTO:</p>
-                        <p></p>
-                        <p>4.-FACULTAD:</p>
-                        <!--                --><?php
-                        //                foreach ($arregloFacultad as $Facultad) {
-                        //                ?>
-                        <!--                <p>--><? //= $Facultad['NOMBRE_FACULTAD'] ?><!--</p>-->
 
-                    <p>5.-DIPLOMA ACADEMICO:</p>
-                    <p>6.-TITULO PROFESIONAL EN PROVISION NACIONAL:</p>
-                    <p>7.-CATEGORIA DEL NOMBRAMIENTO SOLICITADO:</p>
+                    <?php } ?>
+                    <p>2.-Carrera que solicita la Nominación:
+                        &nbsp;&nbsp;<?= strtoupper($facultad->NOMBRE_CARRERA) ?></p>
+                    <p>3.-Departamento: &nbsp; &nbsp; <?= strtoupper($facultad->NOMBRE_DPTO) ?></p>
+                    <p>4.-Facultad: &nbsp; &nbsp; <?= strtoupper($facultad->NOMBRE_FACULTAD) ?></p>
+                    <p>5.-Diploma Académico:</p>
+                    <p>6.-Titulo Porfesional en Provisión Nacional:</p>
+                    <p>7.-Categoría del Nombramiento Solicitado:</p>
                     <div class="row">
                         <table>
                             <tbody>
@@ -143,14 +144,14 @@
                         <p>HRS.SEMANA:0 &nbsp; HRS.MES:0</p>
                     </div>
 
-                    <div>
+                    <div align="center">
                         <table>
                             <tbody>
                             <tr>
-                                <td width="10" class="text-center"><p>A)</p></td>
-                                <td width="200" class="text-center"><p>materia</p></td>
-                                <td width="200" class="text-center"><p>cod_materia</p></td>
-                                <td width="200" class="text-center"><p>grupo</p></td>
+                                <td width="5%" class="counterCell"></td>
+                                <td width="20%"><?= strtoupper($facultad->NOMBRE_MATERIA) ?></td>
+                                <td width="20%"><?= strtoupper($facultad->SIGLA_MATERIA) ?></td>
+                                <td width="20%" class="text-center"><p>grupo</p></td>
                             </tr>
                             </tbody>
 
@@ -158,7 +159,7 @@
                     </div>
 
 
-                    <p>9.-TIEMPO DE DEDICACION:</p>
+                    <p>9.-Tiempo de Dedicación:</p>
                     <div class="row">
                         <table>
                             <tbody>
@@ -170,9 +171,9 @@
 
                         </table>
                     </div>
-                    <p>10.-NOMBRAMIENTO APARTIR DE:</p>
-                    <p>11.-TIEMPO DE DURACION DEL NOMBRAMIENTO:</p>
-                    <p>12.-FECHA DE SOLICITUD:</p>
+                    <p>10.-Nombramiento apartir de:</p>
+                    <p>11.-Tiempo de Duración del Nombramiento:</p>
+                    <p>12.-Fecha de Solicitud:</p>
 
                 </div>
 
@@ -182,10 +183,10 @@
                         <tr>
                             <td></td>
                             <td class="text-center">
-                                <h5>
-                                    <hr/>
-                                    JEFE DE DEPARTAMENTO
-                                </h5>
+                                <p>
+                                <hr/>
+                                JEFE DE DEPARTAMENTO
+                                </p>
                             </td>
                             <td></td>
                         </tr>
