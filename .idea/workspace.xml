@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb15257b-dafb-46da-b08a-e10789272397" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/a401a596-0918-4e43-9133-3548237ee84a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/a401a596-0918-4e43-9133-3548237ee84a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/nombramientodocente.php" afterPath="$PROJECT_DIR$/models/nombramientodocente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rptNombramientoDocente.php" afterPath="$PROJECT_DIR$/rptNombramientoDocente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
@@ -48,21 +46,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="nombramiento" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - bd_seguimiento@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="facultad" />
+        <option name="myItemId" value="seguimiento" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -86,7 +70,7 @@
     <favorites_list name="seguimiento" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25474453">
+    <splitter split-orientation="horizontal" split-proportion="0.23561013">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="false">
@@ -99,7 +83,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
@@ -127,11 +111,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+          <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
             <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -144,8 +128,8 @@
           <file leaf-file-name="rptNombramientoDocente.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rptNombramientoDocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
                   <folding />
                 </state>
               </provider>
@@ -154,17 +138,19 @@
           <file leaf-file-name="nombramientodocente.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="433">
-                  <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+                <state relative-caret-position="284">
+                  <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
                   <folding>
-                    <marker date="1483992727725" expanded="true" signature="1284:1323" ph="select * fro... DOCENTE" />
-                    <marker date="1483992727725" expanded="true" signature="1698:1750" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483992727725" expanded="true" signature="2223:2267" ph="select * fro... NOMBRAMIENTO" />
-                    <marker date="1483992727725" expanded="true" signature="2901:2953" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483992727725" expanded="true" signature="3374:3453" ph="select ID_CA... MATERIA" />
-                    <marker date="1483992727725" expanded="true" signature="3896:3970" ph="select ID_FA... CARRERA" />
-                    <marker date="1483992727725" expanded="true" signature="4547:4602" ph="select NOMBR... FACULTAD" />
-                    <marker date="1483992727725" expanded="true" signature="5046:5097" ph="select NOMBR... DEPARTAMENTO" />
+                    <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
+                    <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
+                    <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
+                    <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
+                    <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
+                    <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
+                    <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
+                    <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
                   </folding>
                 </state>
               </provider>
@@ -173,32 +159,11 @@
           <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="130" column="79" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
+                <state relative-caret-position="272">
+                  <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
                   <folding>
-                    <element signature="e#3380#3386#0#HTML" expanded="true" />
-                    <marker date="1483996775554" expanded="true" signature="4901:5124" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="5299:5478" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="5520:6278" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="5552:6251" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="5588:6217" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="5732:6141" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="6370:7062" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="6402:7035" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="6438:7001" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="6589:6925" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7217:7223" ph=" " />
-                    <marker date="1483996775554" expanded="true" signature="7341:7347" ph=" " />
-                    <marker date="1483996775554" expanded="true" signature="7448:7454" ph=" " />
-                    <marker date="1483996775554" expanded="true" signature="7596:8597" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7624:8574" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7656:8545" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7685:8042" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7776:7974" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="7812:7845" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="8071:8512" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="8138:8248" ph="..." />
-                    <marker date="1483996775554" expanded="true" signature="8387:8482" ph="..." />
+                    <element signature="e#5845#5851#0#HTML" expanded="true" />
+                    <element signature="e#5952#5958#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -219,8 +184,9 @@
         <option value="$PROJECT_DIR$/views/nombramiento.view.php" />
         <option value="$PROJECT_DIR$/nombramiento.php" />
         <option value="$PROJECT_DIR$/models/seguimientodocente.php" />
-        <option value="$PROJECT_DIR$/rptNombramientoDocente.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql" />
         <option value="$PROJECT_DIR$/models/nombramientodocente.php" />
+        <option value="$PROJECT_DIR$/rptNombramientoDocente.php" />
         <option value="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
       </list>
     </option>
@@ -382,21 +348,22 @@
       <workItem from="1483721489532" duration="7088000" />
       <workItem from="1483744718691" duration="2635000" />
       <workItem from="1483784811031" duration="1011000" />
-      <workItem from="1483964256740" duration="19177000" />
+      <workItem from="1483964256740" duration="22601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38033000" />
+    <option name="totallyTimeSpent" value="41457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11128861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19542067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19488817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -407,7 +374,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -490,14 +456,16 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1483992727725" expanded="true" signature="1284:1323" ph="select * fro... DOCENTE" />
-            <marker date="1483992727725" expanded="true" signature="1698:1750" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="2223:2267" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1483992727725" expanded="true" signature="2901:2953" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3374:3453" ph="select ID_CA... MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3896:3970" ph="select ID_FA... CARRERA" />
-            <marker date="1483992727725" expanded="true" signature="4547:4602" ph="select NOMBR... FACULTAD" />
-            <marker date="1483992727725" expanded="true" signature="5046:5097" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
+            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
+            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
+            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -559,14 +527,16 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1483992727725" expanded="true" signature="1284:1323" ph="select * fro... DOCENTE" />
-            <marker date="1483992727725" expanded="true" signature="1698:1750" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="2223:2267" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1483992727725" expanded="true" signature="2901:2953" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3374:3453" ph="select ID_CA... MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3896:3970" ph="select ID_FA... CARRERA" />
-            <marker date="1483992727725" expanded="true" signature="4547:4602" ph="select NOMBR... FACULTAD" />
-            <marker date="1483992727725" expanded="true" signature="5046:5097" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
+            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
+            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
+            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -642,14 +612,16 @@
         <state relative-caret-position="119">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <marker date="1483992727725" expanded="true" signature="1284:1323" ph="select * fro... DOCENTE" />
-            <marker date="1483992727725" expanded="true" signature="1698:1750" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="2223:2267" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1483992727725" expanded="true" signature="2901:2953" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3374:3453" ph="select ID_CA... MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3896:3970" ph="select ID_FA... CARRERA" />
-            <marker date="1483992727725" expanded="true" signature="4547:4602" ph="select NOMBR... FACULTAD" />
-            <marker date="1483992727725" expanded="true" signature="5046:5097" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
+            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
+            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
+            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -746,14 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/nombramiento.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -830,59 +794,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        <state relative-caret-position="284">
+          <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
           <folding>
-            <marker date="1483992727725" expanded="true" signature="1284:1323" ph="select * fro... DOCENTE" />
-            <marker date="1483992727725" expanded="true" signature="1698:1750" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="2223:2267" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1483992727725" expanded="true" signature="2901:2953" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3374:3453" ph="select ID_CA... MATERIA" />
-            <marker date="1483992727725" expanded="true" signature="3896:3970" ph="select ID_FA... CARRERA" />
-            <marker date="1483992727725" expanded="true" signature="4547:4602" ph="select NOMBR... FACULTAD" />
-            <marker date="1483992727725" expanded="true" signature="5046:5097" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
+            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
+            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
+            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
+            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rptNombramientoDocente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="130" column="79" selection-start-line="130" selection-start-column="79" selection-end-line="130" selection-end-column="79" />
+        <state relative-caret-position="272">
+          <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
           <folding>
-            <element signature="e#3380#3386#0#HTML" expanded="true" />
-            <marker date="1483996775554" expanded="true" signature="4901:5124" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="5299:5478" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="5520:6278" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="5552:6251" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="5588:6217" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="5732:6141" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="6370:7062" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="6402:7035" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="6438:7001" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="6589:6925" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7217:7223" ph=" " />
-            <marker date="1483996775554" expanded="true" signature="7341:7347" ph=" " />
-            <marker date="1483996775554" expanded="true" signature="7448:7454" ph=" " />
-            <marker date="1483996775554" expanded="true" signature="7596:8597" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7624:8574" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7656:8545" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7685:8042" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7776:7974" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="7812:7845" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="8071:8512" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="8138:8248" ph="..." />
-            <marker date="1483996775554" expanded="true" signature="8387:8482" ph="..." />
+            <element signature="e#5845#5851#0#HTML" expanded="true" />
+            <element signature="e#5952#5958#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>

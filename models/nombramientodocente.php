@@ -14,6 +14,9 @@ class nombramientodocente_model
     private $arregloIdMateria;
     private $arregloDpto;
     private $arregloNombramiento;
+    private $arregloHorasTotalSemana;
+    private $arregloHorasTotalMes;
+
 
     public function __construct()
     {
@@ -32,6 +35,9 @@ class nombramientodocente_model
         $this->arregloIdMateria = array();
         $this->arregloDpto;
         $this->arregloNombramiento;
+        $this->arregloHorasTotalSemanas =array();
+        $this->arregloHorasTotalMes =array();
+
     }
 
 
@@ -86,6 +92,33 @@ class nombramientodocente_model
         return $this->arregloNombramiento;
     }
 
+    public function get_horasTotalSemana()
+    {
+
+        if (isset($_GET['ID_DOCENTE'])) {
+            $ID_DOCE = $_GET['ID_DOCENTE'];
+        }
+        $consulta = $this->db->query("select (HRSTEORIA+HRSPRACTICA)TOTALHORA from SEGUIMIENTO where ID_DOCENTE=" . $ID_DOCE);
+        console_log($consulta);
+        while ($filas = $consulta->fetch_assoc()) {
+            $this->arregloHorasTotalSemana[] = $filas;
+        }
+        return $this->arregloHorasTotalSemana;
+    }
+
+    public function get_horasTotalMes()
+    {
+
+        if (isset($_GET['ID_DOCENTE'])) {
+            $ID_DOCE = $_GET['ID_DOCENTE'];
+        }
+        $consulta = $this->db->query("select ((HRSTEORIA+HRSPRACTICA)*4)TOTALHORA from SEGUIMIENTO where ID_DOCENTE=" . $ID_DOCE);
+        console_log($consulta);
+        while ($filas = $consulta->fetch_assoc()) {
+            $this->arregloHorasTotalMes[] = $filas;
+        }
+        return $this->arregloHorasTotalMes;
+    }
 
 
     public function get_facultadDocente()

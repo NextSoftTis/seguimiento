@@ -14,9 +14,10 @@
 
 
 <style>
-    td{
+    td {
         font-size: 12px;
     }
+
     p {
         font-size: 12px;
     }
@@ -116,12 +117,13 @@
                     <?php } ?>
                     <p>2.-Carrera que solicita la Nominación:
                         &nbsp;&nbsp;<b><?= strtoupper($facultad->NOMBRE_CARRERA) ?></b></p>
-                    <p>3.-Departamento: &nbsp; &nbsp; <b><?= strtoupper($facultad->NOMBRE_DPTO) ?></b> </p>
+                    <p>3.-Departamento: &nbsp; &nbsp; <b><?= strtoupper($facultad->NOMBRE_DPTO) ?></b></p>
                     <p>4.-Facultad: &nbsp; &nbsp; <b><?= strtoupper($facultad->NOMBRE_FACULTAD) ?></b></p>
                     <?php
                     foreach ($arregloDocentes as $Docente) { ?>
-                    <p>5.-Diploma Académico: <b><?= strtoupper($Docente['DIPLOMA_ACAD']) ?></b></p>
-                    <p>6.-Titulo Profesional en Provisión Nacional: <b><?= strtoupper($Docente['PROFESION_DOC']) ?></b></p>
+                        <p>5.-Diploma Académico: <b><?= strtoupper($Docente['DIPLOMA_ACAD']) ?></b></p>
+                        <p>6.-Titulo Profesional en Provisión Nacional:
+                            <b><?= strtoupper($Docente['PROFESION_DOC']) ?></b></p>
                     <?php } ?>
                     <p>7.-Categoría del Nombramiento Solicitado:</p>
                     <div class="row">
@@ -130,26 +132,39 @@
                             <?php
                             foreach ($arregloNombramientoS as $nombramientos) { ?>
 
-                            <tr>
-                                <td width="300" class="text-center"><p>INTERINO: <b><?= ($nombramientos['INTERINO_NOM'])?></b></p></td>
-                                <td width="300" class="text-center"><p>ASISTENTE(A): <b><?= ($nombramientos['ASISTENTE_NOM'])?></b></p></td>
-                            </tr>
-                            <tr>
-                                <td width="300" class="text-center"><p>INVITADO: <b><?= ($nombramientos['INVITADO_NOM'])?></b></p></td>
-                                <td width="300" class="text-center"><p>ADJUNTO(B): <b><?= ($nombramientos['ADJUNTO_NOM'])?></b></p></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td width="300" class="text-center"><p>CATEDRATICO(C): <b><?= ($nombramientos['CATEDRATICO_NOM'])?></b> </p>:</td>
-                            </tr>
+                                <tr>
+                                    <td width="300" class="text-center"><p>INTERINO:
+                                            <b><?= ($nombramientos['INTERINO_NOM']) ?></b></p></td>
+                                    <td width="300" class="text-center"><p>ASISTENTE(A):
+                                            <b><?= ($nombramientos['ASISTENTE_NOM']) ?></b></p></td>
+                                </tr>
+                                <tr>
+                                    <td width="300" class="text-center"><p>INVITADO:
+                                            <b><?= ($nombramientos['INVITADO_NOM']) ?></b></p></td>
+                                    <td width="300" class="text-center"><p>ADJUNTO(B):
+                                            <b><?= ($nombramientos['ADJUNTO_NOM']) ?></b></p></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td width="300" class="text-center"><p>CATEDRATICO(C):
+                                            <b><?= ($nombramientos['CATEDRATICO_NOM']) ?></b></p>:
+                                    </td>
+                                </tr>
                             <?php } ?>
                             </tbody>
                         </table>
 
                     </div>
                     <div class="row">
-                        <p>8.-Asignaturas(s)(materias, módulos, seminario)que dictará:</p>
-                        <p>HRS.SEMANA:0 &nbsp; HRS.MES:0</p>
+                        <?php
+                        foreach ($arregloHorasTotalesSem as $HorasTotalSem) { ?>
+                        <p>8.-Asignaturas(s)(materias, módulos, seminario)que dictará: &nbsp;
+                        HRS.SEMANA: <b><?= strtoupper($HorasTotalSem['TOTALHORA']) ?></b> <?php } ?>&nbsp;
+                            <?php
+                            foreach ($arregloHorasTotalesMes as $HorasTotalMes) { ?>
+                            HRS.MES:<b><?= strtoupper($HorasTotalMes['TOTALHORA']) ?></b> </p>
+                    <?php } ?>
+
                     </div>
 
                     <div align="center">
@@ -159,12 +174,12 @@
                             foreach ($arregloFacultades as $facultad) { ?>
 
 
-                            <tr>
-                                <td width="5%" class="counterCell"></td>
-                                <td width="20%"><b><?= strtoupper($facultad->NOMBRE_MATERIA) ?></b></td>
-                                <td width="20%"><b><?= strtoupper($facultad->SIGLA_MATERIA) ?></b></td>
-<!--                                <td width="20%" class="text-center"><p>grupo</p></td>-->
-                            </tr>
+                                <tr>
+                                    <td width="5%" class="counterCell"></td>
+                                    <td width="20%"><b><?= strtoupper($facultad->NOMBRE_MATERIA) ?></b></td>
+                                    <td width="20%"><b><?= strtoupper($facultad->SIGLA_MATERIA) ?></b></td>
+                                    <!--                                <td width="20%" class="text-center"><p>grupo</p></td>-->
+                                </tr>
                             <?php } ?>
                             </tbody>
 
@@ -179,11 +194,13 @@
                             <?php
                             foreach ($arregloNombramientoS as $nombramientos) { ?>
 
-                            <tr>
-                                <td width="200" class="text-center"><p>TIEMPO PARCIAL: <b><?= ($nombramientos['TIEMPO_PARCIAL_NOM'])?></b> </p></td>
-                                <td width="200" class="text-center"><p>TIEMPO EXCLUSIVO: <b><?= ($nombramientos['TIEMPO_EXCLUSIVO_NOM'])?></b></p></td>
+                                <tr>
+                                    <td width="200" class="text-center"><p>TIEMPO PARCIAL:
+                                            <b><?= ($nombramientos['TIEMPO_PARCIAL_NOM']) ?></b></p></td>
+                                    <td width="200" class="text-center"><p>TIEMPO EXCLUSIVO:
+                                            <b><?= ($nombramientos['TIEMPO_EXCLUSIVO_NOM']) ?></b></p></td>
 
-                            </tr>
+                                </tr>
                             <?php } ?>
                             </tbody>
 
@@ -191,9 +208,10 @@
                     </div>
                     <?php
                     foreach ($arregloNombramientoS as $nombramientos) { ?>
-                    <p>10.-Nombramiento apartir de: &nbsp; <b><?= ($nombramientos['FECHA_SOLICITUD'])?></b></p>
-                    <p>11.-Tiempo de Duración del Nombramiento: &nbsp; <b><?= ($nombramientos['TIEMPO_DURACION'])?></b></p>
-                    <p>12.-Fecha de Solicitud: &nbsp; <b><?= ($nombramientos['FECHA_SOLICITUD'])?></b></p>
+                        <p>10.-Nombramiento apartir de: &nbsp; <b><?= ($nombramientos['FECHA_SOLICITUD']) ?></b></p>
+                        <p>11.-Tiempo de Duración del Nombramiento: &nbsp;
+                            <b><?= ($nombramientos['TIEMPO_DURACION']) ?></b></p>
+                        <p>12.-Fecha de Solicitud: &nbsp; <b><?= ($nombramientos['FECHA_SOLICITUD']) ?></b></p>
                     <?php } ?>
 
                 </div>
