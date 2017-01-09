@@ -11,6 +11,7 @@ if (isset($_SESSION['usuario'])) {
     $arregloDocentes = $nombramientoDocente->get_docente();
 
     $arregloFacultades = $nombramientoDocente->get_facultadDocente();
+    $arregloNombramientoS = $nombramientoDocente->get_nombramiento();
 
 //Llamada a la vista
     require_once 'views/rptNombramientoDocente.view.php';
