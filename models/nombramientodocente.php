@@ -12,6 +12,7 @@ class nombramientodocente_model
     private $arregloDocente;
     private $arregloFacultad;
     private $arregloIdMateria;
+    private $arregloDpto;
 
     public function __construct()
     {
@@ -28,6 +29,7 @@ class nombramientodocente_model
         $this->arregloDocente = array();
         $this->arregloFacultad = array();
         $this->arregloIdMateria = array();
+        $this->arregloDpto;
     }
 
 
@@ -91,20 +93,24 @@ class nombramientodocente_model
                 }
             }
 
+
             //CARRERA
             foreach ($this->arregloIdCarrera as &$idCarrera) {
-                $consulta = $this->db->query("select ID_FACULTAD, NOMBRE_CARRERA from CARRERA where ID_CARRERA=".$idCarrera);
+                $consulta = $this->db->query("select ID_FACULTAD, ID_DPTO, NOMBRE_CARRERA from CARRERA where ID_CARRERA=" . $idCarrera);
                 while ($filas = $consulta->fetch_assoc()) {
                     $obj = $filas['ID_FACULTAD'];
+                    $obj2 = $filas['ID_DPTO'];
                     $this->arregloCarrerass[] = $filas;
                     $this->arregloFacultad[] = $obj;
+                    $this->arregloDpto[] = $obj2;
                     console_log($obj);
+                    console_log($obj2);
                 }
             }
 
             //FACULTAD
             foreach ($this->arregloFacultad as &$idFacultad) {
-                $consulta = $this->db->query("select NOMBRE_FACULTAD from FACULTAD where ID_FACULTAD=".$idFacultad);
+                $consulta = $this->db->query("select NOMBRE_FACULTAD from FACULTAD where ID_FACULTAD=" . $idFacultad);
                 while ($filas = $consulta->fetch_assoc()) {
                     $obj = $filas['NOMBRE_FACULTAD'];
                     $this->arregloFacultadess[] = $filas;
@@ -114,8 +120,8 @@ class nombramientodocente_model
 
             }
             //DEPARTAMENTO
-            foreach ($this->arregloIdCarrera as &$idCarrera) {
-                $consulta = $this->db->query("select NOMBRE_DPTO from DEPARTAMENTO where ID_CARRERA=".$idCarrera);
+            foreach ($this->arregloDpto as &$idDpto) {
+                $consulta = $this->db->query("select NOMBRE_DPTO from DEPARTAMENTO where ID_DPTO=" . $idDpto);
                 while ($filas = $consulta->fetch_assoc()) {
                     $obj = $filas['NOMBRE_DPTO'];
                     $this->arregloDepartamentos[] = $filas;

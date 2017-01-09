@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb15257b-dafb-46da-b08a-e10789272397" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/seguimiento.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/nombramientodocente.php" afterPath="$PROJECT_DIR$/models/nombramientodocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/seguimientodocente.php" afterPath="$PROJECT_DIR$/models/seguimientodocente.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
     </list>
     <ignored path="seguimiento.iws" />
@@ -30,47 +39,75 @@
     <favorites_list name="seguimiento" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47387606">
+    <splitter split-orientation="horizontal" split-proportion="0.33922723">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="671">
-                  <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+                <state relative-caret-position="4913">
+                  <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rptSeguimientoDocente.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
+          <file leaf-file-name="seguimiento.view.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/seguimiento.view.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
-                  <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+                  <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="seguimiento.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/seguimiento.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+                  <folding>
+                    <marker date="1483551438117" expanded="true" signature="260:354" ph="SELECT ID_DO... docente" />
+                    <marker date="1483551438117" expanded="true" signature="452:501" ph="SELECT NOMBR... materia" />
+                    <marker date="1483551438117" expanded="true" signature="776:844" ph="SELECT ID_MA... materia" />
+                    <marker date="1483551438117" expanded="true" signature="1452:1509" ph="SELECT ID_GR... grupo" />
+                    <marker date="1483551438117" expanded="true" signature="1818:1908" ph="INSERT INTO grupo... " />
+                    <marker date="1483551438117" expanded="true" signature="2211:2268" ph="SELECT ID_GR... grupo" />
+                    <marker date="1483551438117" expanded="true" signature="2621:2678" ph="SELECT ID_GR... grupo" />
+                    <marker date="1483551438117" expanded="true" signature="2896:2930" ph="DELETE FROM " />
+                    <marker date="1483551438117" expanded="true" signature="3184:3241" ph="SELECT ID_GR... grupo" />
+                    <marker date="1483551438117" expanded="true" signature="3531:3588" ph="UPDATE grupo... " />
+                    <marker date="1483551438117" expanded="true" signature="3843:3900" ph="SELECT ID_GR... grupo" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+                <state relative-caret-position="148">
+                  <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="163" selection-end-column="38" />
                   <folding>
-                    <marker date="1483724961985" expanded="true" signature="775:796" ph="select * fro... docente" />
-                    <marker date="1483724961985" expanded="true" signature="1001:1056" ph="select * fro... docente" />
-                    <marker date="1483724961985" expanded="true" signature="1339:1360" ph="select * fro... MATERIA" />
-                    <marker date="1483724961985" expanded="true" signature="1830:1869" ph="select * fro... DOCENTE" />
-                    <marker date="1483724961985" expanded="true" signature="2197:2249" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483724961985" expanded="true" signature="2885:2937" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483724961985" expanded="true" signature="3313:3392" ph="select ID_CA... MATERIA" />
-                    <marker date="1483724961985" expanded="true" signature="3791:3856" ph="select ID_FA... CARRERA" />
-                    <marker date="1483724961985" expanded="true" signature="4259:4314" ph="select NOMBR... FACULTAD" />
-                    <marker date="1483724961985" expanded="true" signature="4701:4755" ph="select NOMBR... DEPARTAMENTO" />
-                    <marker date="1483724961985" expanded="true" signature="6095:6117" ph="select * fro... FACULTAD" />
+                    <marker date="1483967904223" expanded="true" signature="2014:2053" ph="select * fro... DOCENTE" />
+                    <marker date="1483967904223" expanded="true" signature="2428:2480" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1483967904223" expanded="true" signature="3186:3238" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1483967904223" expanded="true" signature="3659:3738" ph="select ID_CA... MATERIA" />
+                    <marker date="1483967904223" expanded="true" signature="4180:4254" ph="select ID_FA... CARRERA" />
+                    <marker date="1483967904223" expanded="true" signature="4831:4886" ph="select NOMBR... FACULTAD" />
+                    <marker date="1483967904223" expanded="true" signature="5330:5381" ph="select NOMBR... where" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -82,33 +119,16 @@
           <file leaf-file-name="nombramientodocente.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1031">
-                  <caret line="151" column="2" selection-start-line="151" selection-start-column="2" selection-end-line="151" selection-end-column="2" />
+                <state relative-caret-position="696">
+                  <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
                   <folding>
-                    <marker date="1483725756437" expanded="true" signature="1144:1183" ph="select * fro... DOCENTE" />
-                    <marker date="1483725756437" expanded="true" signature="1552:1604" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483725756437" expanded="true" signature="2288:2340" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483725756437" expanded="true" signature="2758:2837" ph="select ID_CA... MATERIA" />
-                    <marker date="1483725756437" expanded="true" signature="3277:3342" ph="select ID_FA... CARRERA" />
-                    <marker date="1483725756437" expanded="true" signature="3780:3835" ph="select NOMBR... FACULTAD" />
-                    <marker date="1483725756437" expanded="true" signature="4285:4339" ph="select NOMBR... DEPARTAMENTO" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-                  <folding>
-                    <element signature="e#3268#3274#0#HTML" expanded="true" />
-                    <element signature="e#3274#3280#0#HTML" expanded="true" />
-                    <element signature="e#3369#3375#0#HTML" expanded="true" />
-                    <element signature="e#3376#3382#0#HTML" expanded="true" />
-                    <element signature="e#3465#3471#0#HTML" expanded="true" />
-                    <element signature="e#3472#3478#0#HTML" expanded="true" />
+                    <marker date="1483968041043" expanded="true" signature="1198:1237" ph="select * fro... DOCENTE" />
+                    <marker date="1483968041043" expanded="true" signature="1606:1658" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1483968041043" expanded="true" signature="2342:2394" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1483968041043" expanded="true" signature="2812:2891" ph="select ID_CA... MATERIA" />
+                    <marker date="1483968041043" expanded="true" signature="3332:3406" ph="select ID_FA... CARRERA" />
+                    <marker date="1483968041043" expanded="true" signature="3983:4038" ph="select NOMBR... FACULTAD" />
+                    <marker date="1483968041043" expanded="true" signature="4482:4533" ph="select NOMBR... DEPARTAMENTO" />
                   </folding>
                 </state>
               </provider>
@@ -119,6 +139,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
                   <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="623">
+                  <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -135,10 +165,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql" />
-        <option value="$PROJECT_DIR$/models/seguimientodocente.php" />
-        <option value="$PROJECT_DIR$/models/nombramientodocente.php" />
         <option value="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
         <option value="$PROJECT_DIR$/rptNombramientoDocente.php" />
+        <option value="$PROJECT_DIR$/views/nombramiento.view.php" />
+        <option value="$PROJECT_DIR$/nombramiento.php" />
+        <option value="$PROJECT_DIR$/models/seguimientodocente.php" />
+        <option value="$PROJECT_DIR$/models/nombramientodocente.php" />
         <option value="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
       </list>
     </option>
@@ -181,8 +213,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,27 +329,30 @@
       <updated>1483656395310</updated>
       <workItem from="1483656396929" duration="7735000" />
       <workItem from="1483716535650" duration="387000" />
-      <workItem from="1483721489532" duration="6496000" />
+      <workItem from="1483721489532" duration="7088000" />
+      <workItem from="1483744718691" duration="2635000" />
+      <workItem from="1483784811031" duration="1011000" />
+      <workItem from="1483964256740" duration="3603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14618000" />
+    <option name="totallyTimeSpent" value="22459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18690096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122470714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15921193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -364,11 +399,146 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
+    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/seguimiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguimiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1483551438117" expanded="true" signature="260:354" ph="SELECT ID_DO... docente" />
+            <marker date="1483551438117" expanded="true" signature="452:501" ph="SELECT NOMBR... materia" />
+            <marker date="1483551438117" expanded="true" signature="776:844" ph="SELECT ID_MA... materia" />
+            <marker date="1483551438117" expanded="true" signature="1452:1509" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="1818:1908" ph="INSERT INTO grupo... " />
+            <marker date="1483551438117" expanded="true" signature="2211:2268" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2621:2678" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2896:2930" ph="DELETE FROM " />
+            <marker date="1483551438117" expanded="true" signature="3184:3241" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="3531:3588" ph="UPDATE grupo... " />
+            <marker date="1483551438117" expanded="true" signature="3843:3900" ph="SELECT ID_GR... grupo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1483968041043" expanded="true" signature="1198:1237" ph="select * fro... DOCENTE" />
+            <marker date="1483968041043" expanded="true" signature="1606:1658" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2342:2394" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2812:2891" ph="select ID_CA... MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="3332:3406" ph="select ID_FA... CARRERA" />
+            <marker date="1483968041043" expanded="true" signature="3983:4038" ph="select NOMBR... FACULTAD" />
+            <marker date="1483968041043" expanded="true" signature="4482:4533" ph="select NOMBR... DEPARTAMENTO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/nombramiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nombramiento.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/seguimiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguimiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1483551438117" expanded="true" signature="260:354" ph="SELECT ID_DO... docente" />
+            <marker date="1483551438117" expanded="true" signature="452:501" ph="SELECT NOMBR... materia" />
+            <marker date="1483551438117" expanded="true" signature="776:844" ph="SELECT ID_MA... materia" />
+            <marker date="1483551438117" expanded="true" signature="1452:1509" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="1818:1908" ph="INSERT INTO grupo... " />
+            <marker date="1483551438117" expanded="true" signature="2211:2268" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2621:2678" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2896:2930" ph="DELETE FROM " />
+            <marker date="1483551438117" expanded="true" signature="3184:3241" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="3531:3588" ph="UPDATE grupo... " />
+            <marker date="1483551438117" expanded="true" signature="3843:3900" ph="SELECT ID_GR... grupo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1483968041043" expanded="true" signature="1198:1237" ph="select * fro... DOCENTE" />
+            <marker date="1483968041043" expanded="true" signature="1606:1658" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2342:2394" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2812:2891" ph="select ID_CA... MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="3332:3406" ph="select ID_FA... CARRERA" />
+            <marker date="1483968041043" expanded="true" signature="3983:4038" ph="select NOMBR... FACULTAD" />
+            <marker date="1483968041043" expanded="true" signature="4482:4533" ph="select NOMBR... DEPARTAMENTO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/nombramiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nombramiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -376,19 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-          <folding>
-            <marker date="1483724961985" expanded="true" signature="775:796" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1001:1056" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1339:1360" ph="select * fro... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="1830:1869" ph="select * fro... DOCENTE" />
-            <marker date="1483724961985" expanded="true" signature="2197:2249" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="2885:2937" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3313:3392" ph="select ID_CA... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3791:3856" ph="select ID_FA... CARRERA" />
-            <marker date="1483724961985" expanded="true" signature="4259:4314" ph="select NOMBR... FACULTAD" />
-            <marker date="1483724961985" expanded="true" signature="4701:4755" ph="select NOMBR... DEPARTAMENTO" />
-            <marker date="1483724961985" expanded="true" signature="6095:6117" ph="select * fro... FACULTAD" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -396,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -404,12 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483551438118" expanded="true" signature="209:370" ph="SELECT * FRO... doc_materia" />
-            <marker date="1483551438118" expanded="true" signature="452:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="462:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="601:1013" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,14 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#3268#3274#0#HTML" expanded="true" />
-            <element signature="e#3274#3280#0#HTML" expanded="true" />
-            <element signature="e#3369#3375#0#HTML" expanded="true" />
-            <element signature="e#3376#3382#0#HTML" expanded="true" />
-            <element signature="e#3465#3471#0#HTML" expanded="true" />
-            <element signature="e#3472#3478#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -440,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -449,13 +590,13 @@
         <state relative-caret-position="119">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <marker date="1483725756437" expanded="true" signature="1144:1183" ph="select * fro... DOCENTE" />
-            <marker date="1483725756437" expanded="true" signature="1552:1604" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="2288:2340" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="2758:2837" ph="select ID_CA... MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="3277:3342" ph="select ID_FA... CARRERA" />
-            <marker date="1483725756437" expanded="true" signature="3780:3835" ph="select NOMBR... FACULTAD" />
-            <marker date="1483725756437" expanded="true" signature="4285:4339" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1483968041043" expanded="true" signature="1198:1237" ph="select * fro... DOCENTE" />
+            <marker date="1483968041043" expanded="true" signature="1606:1658" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2342:2394" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2812:2891" ph="select ID_CA... MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="3332:3406" ph="select ID_FA... CARRERA" />
+            <marker date="1483968041043" expanded="true" signature="3983:4038" ph="select NOMBR... FACULTAD" />
+            <marker date="1483968041043" expanded="true" signature="4482:4533" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -464,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -472,19 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1785">
           <caret line="105" column="32" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
-          <folding>
-            <marker date="1483724961985" expanded="true" signature="775:796" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1001:1056" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1339:1360" ph="select * fro... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="1830:1869" ph="select * fro... DOCENTE" />
-            <marker date="1483724961985" expanded="true" signature="2197:2249" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="2885:2937" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3313:3392" ph="select ID_CA... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3791:3856" ph="select ID_FA... CARRERA" />
-            <marker date="1483724961985" expanded="true" signature="4259:4314" ph="select NOMBR... FACULTAD" />
-            <marker date="1483724961985" expanded="true" signature="4701:4755" ph="select NOMBR... DEPARTAMENTO" />
-            <marker date="1483724961985" expanded="true" signature="6095:6117" ph="select * fro... FACULTAD" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,12 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483551438118" expanded="true" signature="209:370" ph="SELECT * FRO... doc_materia" />
-            <marker date="1483551438118" expanded="true" signature="452:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="462:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="601:1013" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,10 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483551437723" expanded="true" signature="479:525" ph="SELECT * FRO... aula" />
-            <marker date="1483551437723" expanded="true" signature="833:924" ph="UPDATE aula " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,11 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1483551438099" expanded="true" signature="1161:1182" ph="SELECT * FRO... horario" />
-            <marker date="1483551438099" expanded="true" signature="1338:1357" ph="DELETE FROM " />
-            <marker date="1483551438099" expanded="true" signature="1709:1830" ph="INSERT INTO horario... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -572,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,32 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1483551438118" expanded="true" signature="209:370" ph="SELECT * FRO... doc_materia" />
-            <marker date="1483551438118" expanded="true" signature="452:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="462:528" ph="..." />
-            <marker date="1483551438118" expanded="true" signature="601:1013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <marker date="1483724961985" expanded="true" signature="775:796" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1001:1056" ph="select * fro... docente" />
-            <marker date="1483724961985" expanded="true" signature="1339:1360" ph="select * fro... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="1830:1869" ph="select * fro... DOCENTE" />
-            <marker date="1483724961985" expanded="true" signature="2197:2249" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="2885:2937" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3313:3392" ph="select ID_CA... MATERIA" />
-            <marker date="1483724961985" expanded="true" signature="3791:3856" ph="select ID_FA... CARRERA" />
-            <marker date="1483724961985" expanded="true" signature="4259:4314" ph="select NOMBR... FACULTAD" />
-            <marker date="1483724961985" expanded="true" signature="4701:4755" ph="select NOMBR... DEPARTAMENTO" />
-            <marker date="1483724961985" expanded="true" signature="6095:6117" ph="select * fro... FACULTAD" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,22 +697,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4913">
+          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/seguimiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="36" column="66" selection-start-line="36" selection-start-column="66" selection-end-line="36" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguimiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1483551438117" expanded="true" signature="260:354" ph="SELECT ID_DO... docente" />
+            <marker date="1483551438117" expanded="true" signature="452:501" ph="SELECT NOMBR... materia" />
+            <marker date="1483551438117" expanded="true" signature="776:844" ph="SELECT ID_MA... materia" />
+            <marker date="1483551438117" expanded="true" signature="1452:1509" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="1818:1908" ph="INSERT INTO grupo... " />
+            <marker date="1483551438117" expanded="true" signature="2211:2268" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2621:2678" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="2896:2930" ph="DELETE FROM " />
+            <marker date="1483551438117" expanded="true" signature="3184:3241" ph="SELECT ID_GR... grupo" />
+            <marker date="1483551438117" expanded="true" signature="3531:3588" ph="UPDATE grupo... " />
+            <marker date="1483551438117" expanded="true" signature="3843:3900" ph="SELECT ID_GR... grupo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="163" selection-end-column="38" />
+          <folding>
+            <marker date="1483967904223" expanded="true" signature="2014:2053" ph="select * fro... DOCENTE" />
+            <marker date="1483967904223" expanded="true" signature="2428:2480" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483967904223" expanded="true" signature="3186:3238" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483967904223" expanded="true" signature="3659:3738" ph="select ID_CA... MATERIA" />
+            <marker date="1483967904223" expanded="true" signature="4180:4254" ph="select ID_FA... CARRERA" />
+            <marker date="1483967904223" expanded="true" signature="4831:4886" ph="select NOMBR... FACULTAD" />
+            <marker date="1483967904223" expanded="true" signature="5330:5381" ph="select NOMBR... where" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/nombramiento.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nombramiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1031">
-          <caret line="151" column="2" selection-start-line="151" selection-start-column="2" selection-end-line="151" selection-end-column="2" />
+        <state relative-caret-position="696">
+          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
           <folding>
-            <marker date="1483725756437" expanded="true" signature="1144:1183" ph="select * fro... DOCENTE" />
-            <marker date="1483725756437" expanded="true" signature="1552:1604" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="2288:2340" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="2758:2837" ph="select ID_CA... MATERIA" />
-            <marker date="1483725756437" expanded="true" signature="3277:3342" ph="select ID_FA... CARRERA" />
-            <marker date="1483725756437" expanded="true" signature="3780:3835" ph="select NOMBR... FACULTAD" />
-            <marker date="1483725756437" expanded="true" signature="4285:4339" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1483968041043" expanded="true" signature="1198:1237" ph="select * fro... DOCENTE" />
+            <marker date="1483968041043" expanded="true" signature="1606:1658" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2342:2394" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="2812:2891" ph="select ID_CA... MATERIA" />
+            <marker date="1483968041043" expanded="true" signature="3332:3406" ph="select ID_FA... CARRERA" />
+            <marker date="1483968041043" expanded="true" signature="3983:4038" ph="select NOMBR... FACULTAD" />
+            <marker date="1483968041043" expanded="true" signature="4482:4533" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -641,26 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="e#3268#3274#0#HTML" expanded="true" />
-            <element signature="e#3274#3280#0#HTML" expanded="true" />
-            <element signature="e#3369#3375#0#HTML" expanded="true" />
-            <element signature="e#3376#3382#0#HTML" expanded="true" />
-            <element signature="e#3465#3471#0#HTML" expanded="true" />
-            <element signature="e#3472#3478#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="623">
+          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

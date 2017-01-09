@@ -147,11 +147,12 @@
                     <div align="center">
                         <table>
                             <tbody>
+                            
                             <tr>
                                 <td width="5%" class="counterCell"></td>
                                 <td width="20%"><?= strtoupper($facultad->NOMBRE_MATERIA) ?></td>
                                 <td width="20%"><?= strtoupper($facultad->SIGLA_MATERIA) ?></td>
-                                <td width="20%" class="text-center"><p>grupo</p></td>
+<!--                                <td width="20%" class="text-center"><p>grupo</p></td>-->
                             </tr>
                             </tbody>
 
