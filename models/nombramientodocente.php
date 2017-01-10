@@ -35,8 +35,8 @@ class nombramientodocente_model
         $this->arregloIdMateria = array();
         $this->arregloDpto;
         $this->arregloNombramiento;
-        $this->arregloHorasTotalSemanas =array();
-        $this->arregloHorasTotalMes =array();
+        $this->arregloHorasTotalSemanas = array();
+        $this->arregloHorasTotalMes = array();
 
     }
 
@@ -88,7 +88,7 @@ class nombramientodocente_model
         console_log($consulta);
         while ($filas = $consulta->fetch_assoc()) {
             $this->arregloNombramiento[] = $filas;
-                }
+        }
         return $this->arregloNombramiento;
     }
 
@@ -212,8 +212,6 @@ class nombramientodocente_model
         }
         return $this->arregloInfoDocentes;
     }
-
-
 
 
 }

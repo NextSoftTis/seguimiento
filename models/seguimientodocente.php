@@ -13,6 +13,10 @@ class seguimientodocente_model
     private $arregloFacultad;
     private $arregloIdMateria;
     private $arregloDpto;
+//    private $arregloHorasTotalSemana;
+    private $arregloSeguimiento;
+
+    private $arreglohrs;
 
     public function __construct()
     {
@@ -30,35 +34,11 @@ class seguimientodocente_model
         $this->arregloFacultad = array();
         $this->arregloIdMateria = array();
         $this->arregloDpto;
-    }
+//        $this->arregloHorasTotalSemana = array();
+        $this->arreglohrs = array();
+        $this->arregloSeguimiento = array();
 
-//public function get_docentes()
-//{
-//    $consulta = $this->db->query("select * from docente;");
-//    while ($filas = $consulta->fetch_assoc()) {
-//        $this->arDocentes[] = $filas;
-//    }
-//    return $this->arDocentes;
-//}
-//
-//public function get_docente_rol()
-//{
-//    $consulta_sql = "select * from docente d join rol r on d.ID_ROL=r.ID_ROL";
-//    $consulta = $this->db->query($consulta_sql);
-//    while ($filas = $consulta->fetch_assoc()) {
-//        $this->arregloDocentesRoles[] = $filas;
-//    }
-//    return $this->arregloDocentesRoles;
-//}
-//
-//public function get_materia()
-//{
-//    $consulta = $this->db->query("select * from MATERIA;");
-//    while ($filas = $consulta->fetch_assoc()) {
-//        $this->arregloMateria[] = $filas;
-//    }
-//    return $this->arregloMateria;
-//}
+    }
 
     public function get_docente()
     {
@@ -96,6 +76,21 @@ class seguimientodocente_model
         return $this->arregloIdMateria;
     }
 
+    public function get_seguimiento()
+    {
+
+        if (isset($_GET['ID_DOCENTE'])) {
+            $ID_DOCE = $_GET['ID_DOCENTE'];
+        }
+        $consulta = $this->db->query("select ASIS, ADJ, CAT, OTROCARGO, SUM(HRSTEORIA), SUM(HRSPRACTICA)from SEGUIMIENTO where ID_DOCENTE=" . $ID_DOCE);
+        console_log($consulta);
+        while ($filas = $consulta->fetch_assoc()) {
+            $this->arregloSeguimiento[] = $filas;
+        }
+        return $this->arregloSeguimiento;
+    }
+
+
     public function get_facultadDocente()
     {
         function console_logg($data)
@@ -110,6 +105,8 @@ class seguimientodocente_model
         if (isset($_GET['ID_DOCENTE'])) {
             $ID_DOCE = $_GET['ID_DOCENTE'];
         }
+
+
         $consulta = $this->db->query("select ID_MATERIA from DOC_MATERIA where ID_DOCENTE=" . $ID_DOCE);
         while ($filas = $consulta->fetch_assoc()) {
             $obj = $filas['ID_MATERIA'];
@@ -117,6 +114,7 @@ class seguimientodocente_model
             $this->arregloIdMateria[] = $obj;
         }
         if ($this->arregloIdMateria != null) {
+
             //MATERIAS
             foreach ($this->arregloIdMateria as &$idMateria) {
                 //  console_log($idMateria);
@@ -164,11 +162,27 @@ class seguimientodocente_model
                     console_log($obj);
                 }
             }
+
+            //seguimiento-horas semana
+            //print_r($this->arreglohrs);
+            foreach ($this->arreglohrs as &$total) {
+                $consulta = $this->db->query("select ID_DOCENTE, HRSTEORIA, HRSPRACTICA from SEGUIMIENTO where ID_DOCENTE=" . $total);
+                while ($filas = $consulta->fetch_assoc()) {
+                    $obj1 = $filas['ID_DOCENTE'];
+//                    $obj2 = $filas['HRSPRACTICA'];
+                    $this->arreglohrsTo[] = $filas;
+                    $this->arreglohrsT[] = $obj1;
+//                    $this->arreglohrsT[] = $obj2;
+                    console_log($obj1);
+//                    console_log($obj2);
+                }
+            }
             $arr_length = count($this->arregloIdMateria);
             for ($i = 0; $i < $arr_length; $i++) {
                 //
 
-                $info = array('NOMBRE_FACULTAD' => $this->arregloFacultadS[$i], 'NOMBRE_DPTO' => $this->arregloNomDptos[$i], 'NOMBRE_CARRERA' => $this->arregloCarrerass[$i]['NOMBRE_CARRERA'], 'NOMBRE_MATERIA' => $this->arregloMateriass[$i]['NOMBRE_MATERIA'], 'SIGLA_MATERIA' => $this->arregloMateriass[$i]['SIGLA_MATERIA']);
+//                print_r($this->arreglohrs);
+                $info = array('NOMBRE_FACULTAD' => $this->arregloFacultadS[$i], 'NOMBRE_DPTO' => $this->arregloNomDptos[$i], 'NOMBRE_CARRERA' => $this->arregloCarrerass[$i]['NOMBRE_CARRERA'], 'NOMBRE_MATERIA' => $this->arregloMateriass[$i]['NOMBRE_MATERIA'], 'SIGLA_MATERIA' => $this->arregloMateriass[$i]['SIGLA_MATERIA'], 'HRSTEORIA' => $this->arreglohrsT[$i]['HRSTEORIA'], 'HRSPRACTICA' => $this->arreglohrsT[$i]['HRSPRACTICA']);
                 // $info = array('NOMBRE_DPTO' => $this->arregloNomDptos[$i]);
                 $info = (object)$info;
 
@@ -177,7 +191,7 @@ class seguimientodocente_model
                 $this->arregloInfoDocentes[] = $info;
             }
         } else {
-            $info = array('NOMBRE_FACULTAD' => '', 'NOMBRE_DPTO' => '', 'NOMBRE_CARRERA' => '', 'NOMBRE_MATERIA' => '', 'SIGLA_MATERIA' => '');
+            $info = array('NOMBRE_FACULTAD' => '', 'NOMBRE_DPTO' => '', 'NOMBRE_CARRERA' => '', 'NOMBRE_MATERIA' => '', 'SIGLA_MATERIA' => '', 'HRSTEORIA' => '', 'HRSPRACTICA' => '');
             $info = (object)$info;
             $nones = $info;
             $this->arregloInfoDocentes[] = $info;
@@ -195,6 +209,28 @@ class seguimientodocente_model
 //    }
 //    return $this->arregloFacultad;
 //}
+   /* public function cargar_horario_docente($IDDocente)
+    {
+        $consulta_sql = "SELECT
+m.sigla_materia,
+  g.grupo,
+  au.NOMBRE_AULA,
+  di.nom_dia,
+  INICIO_HORARIO,
+  FIN_HORARIO,
+  d.NOMBRE_DOC AS nombre_docente
+FROM docente d
+  JOIN doc_materia dm ON d.ID_DOCENTE = dm.ID_DOCENTE
+  JOIN materia m ON m.id_materia=dm.id_materia
+  JOIN grupos g ON dm.ID_DOCMATERIA = g.ID_DOCMATERIA
+  JOIN dia di ON di.ID_GRUP = g.ID_GRUP
+  JOIN horario h ON h.ID_HORARIO = di.ID_HORARIO
+  JOIN aula au ON di.ID_AULA = au.ID_AULA
+  JOIN hrs_academicas hr ON di.ID_DIA = hr.ID_DIA
+WHERE d.ID_DOCENTE = " . $IDDocente . "  ORDER BY di.nom_dia, INICIO_HORARIO;";
+
+        $consulta = $this->db->query($consulta_sql);
+    }*/
 
 
 }

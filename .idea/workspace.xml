@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb15257b-dafb-46da-b08a-e10789272397" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/nombramientodocente.php" afterPath="$PROJECT_DIR$/models/nombramientodocente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rptNombramientoDocente.php" afterPath="$PROJECT_DIR$/rptNombramientoDocente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/seguimientodocente.php" afterPath="$PROJECT_DIR$/models/seguimientodocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rptSeguimientoDocente.php" afterPath="$PROJECT_DIR$/rptSeguimientoDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
     </list>
     <ignored path="seguimiento.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +62,7 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="docente" />
+        <option name="myItemId" value="doc_materia" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -70,32 +72,26 @@
     <favorites_list name="seguimiento" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23561013">
+    <splitter split-orientation="horizontal" split-proportion="0.8626247">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1360">
-                  <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+                <state relative-caret-position="445">
+                  <caret line="84" column="103" selection-start-line="84" selection-start-column="103" selection-end-line="84" selection-end-column="103" />
                   <folding>
-                    <marker date="1483967904223" expanded="true" signature="2014:2053" ph="select * fro... DOCENTE" />
-                    <marker date="1483967904223" expanded="true" signature="2428:2480" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483967904223" expanded="true" signature="3186:3238" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1483967904223" expanded="true" signature="3659:3738" ph="select ID_CA... MATERIA" />
-                    <marker date="1483967904223" expanded="true" signature="4180:4254" ph="select ID_FA... CARRERA" />
-                    <marker date="1483967904223" expanded="true" signature="4831:4886" ph="select NOMBR... FACULTAD" />
-                    <marker date="1483967904223" expanded="true" signature="5330:5381" ph="select NOMBR... where" />
+                    <marker date="1484069189931" expanded="true" signature="1442:1481" ph="select * fro... DOCENTE" />
+                    <marker date="1484069189931" expanded="true" signature="1856:1908" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484069189931" expanded="true" signature="2379:2479" ph="select HRSTE... SEGUIMIENTO" />
+                    <marker date="1484069189931" expanded="true" signature="3104:3156" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484069189931" expanded="true" signature="3578:3657" ph="select ID_CA... MATERIA" />
+                    <marker date="1484069189931" expanded="true" signature="4099:4173" ph="select ID_FA... CARRERA" />
+                    <marker date="1484069189931" expanded="true" signature="4750:4805" ph="select NOMBR... FACULTAD" />
+                    <marker date="1484069189931" expanded="true" signature="5249:5300" ph="select NOMBR... where" />
+                    <marker date="1484069189931" expanded="true" signature="5789:5865" ph="select HRSTE... SEGUIMIENTO" />
+                    <marker date="1484069189931" expanded="true" signature="7915:8419" ph="SELECT m.sig... docente" />
+                    <marker date="1484069189931" expanded="true" signature="7915:8475" ph="SELECT m.sig... docente" />
                   </folding>
                 </state>
               </provider>
@@ -104,18 +100,28 @@
           <file leaf-file-name="rptSeguimientoDocente.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+                <state relative-caret-position="221">
+                  <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
+          <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="321">
+                  <caret line="370" column="97" selection-start-line="370" selection-start-column="97" selection-end-line="370" selection-end-column="97" />
                   <folding />
                 </state>
               </provider>
@@ -135,31 +141,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nombramientodocente.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="nombramientodocente.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="284">
-                  <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
+                <state relative-caret-position="209">
+                  <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
                   <folding>
-                    <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
-                    <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
-                    <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
-                    <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
-                    <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
-                    <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
-                    <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
-                    <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
-                    <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
+                    <marker date="1484004261055" expanded="true" signature="1457:1496" ph="select * fro... DOCENTE" />
+                    <marker date="1484004261055" expanded="true" signature="1871:1923" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484004261055" expanded="true" signature="2396:2440" ph="select * fro... NOMBRAMIENTO" />
+                    <marker date="1484004261055" expanded="true" signature="2834:2908" ph="select (HRST... SEGUIMIENTO" />
+                    <marker date="1484004261055" expanded="true" signature="3307:3385" ph="select ((HRS... SEGUIMIENTO" />
+                    <marker date="1484004261055" expanded="true" signature="4012:4064" ph="select ID_MA... DOC_MATERIA" />
+                    <marker date="1484004261055" expanded="true" signature="4485:4564" ph="select ID_CA... MATERIA" />
+                    <marker date="1484004261055" expanded="true" signature="5007:5081" ph="select ID_FA... CARRERA" />
+                    <marker date="1484004261055" expanded="true" signature="5658:5713" ph="select NOMBR... FACULTAD" />
+                    <marker date="1484004261055" expanded="true" signature="6157:6208" ph="select NOMBR... DEPARTAMENTO" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
+                <state relative-caret-position="2285">
                   <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
                   <folding>
                     <element signature="e#5845#5851#0#HTML" expanded="true" />
@@ -179,15 +185,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql" />
-        <option value="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
         <option value="$PROJECT_DIR$/views/nombramiento.view.php" />
         <option value="$PROJECT_DIR$/nombramiento.php" />
-        <option value="$PROJECT_DIR$/models/seguimientodocente.php" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql" />
-        <option value="$PROJECT_DIR$/models/nombramientodocente.php" />
         <option value="$PROJECT_DIR$/rptNombramientoDocente.php" />
         <option value="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql" />
+        <option value="$PROJECT_DIR$/models/nombramientodocente.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql" />
+        <option value="$PROJECT_DIR$/rptSeguimientoDocente.php" />
+        <option value="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
+        <option value="$PROJECT_DIR$/models/seguimientodocente.php" />
       </list>
     </option>
   </component>
@@ -348,26 +355,27 @@
       <workItem from="1483721489532" duration="7088000" />
       <workItem from="1483744718691" duration="2635000" />
       <workItem from="1483784811031" duration="1011000" />
-      <workItem from="1483964256740" duration="22601000" />
+      <workItem from="1483964256740" duration="38073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41457000" />
+    <option name="totallyTimeSpent" value="56929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19579646" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11128861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19488817" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -375,29 +383,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12353568" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122470714" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -456,16 +443,16 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
-            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
-            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
-            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484004261055" expanded="true" signature="1457:1496" ph="select * fro... DOCENTE" />
+            <marker date="1484004261055" expanded="true" signature="1871:1923" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="2396:2440" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="2834:2908" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="3307:3385" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="4012:4064" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="4485:4564" ph="select ID_CA... MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="5007:5081" ph="select ID_FA... CARRERA" />
+            <marker date="1484004261055" expanded="true" signature="5658:5713" ph="select NOMBR... FACULTAD" />
+            <marker date="1484004261055" expanded="true" signature="6157:6208" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -527,16 +514,16 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
-            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
-            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
-            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484004261055" expanded="true" signature="1457:1496" ph="select * fro... DOCENTE" />
+            <marker date="1484004261055" expanded="true" signature="1871:1923" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="2396:2440" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="2834:2908" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="3307:3385" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="4012:4064" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="4485:4564" ph="select ID_CA... MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="5007:5081" ph="select ID_FA... CARRERA" />
+            <marker date="1484004261055" expanded="true" signature="5658:5713" ph="select NOMBR... FACULTAD" />
+            <marker date="1484004261055" expanded="true" signature="6157:6208" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -612,16 +599,16 @@
         <state relative-caret-position="119">
           <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
           <folding>
-            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
-            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
-            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
-            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
+            <marker date="1484004261055" expanded="true" signature="1457:1496" ph="select * fro... DOCENTE" />
+            <marker date="1484004261055" expanded="true" signature="1871:1923" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="2396:2440" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="2834:2908" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="3307:3385" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="4012:4064" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="4485:4564" ph="select ID_CA... MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="5007:5081" ph="select ID_FA... CARRERA" />
+            <marker date="1484004261055" expanded="true" signature="5658:5713" ph="select NOMBR... FACULTAD" />
+            <marker date="1484004261055" expanded="true" signature="6157:6208" ph="select NOMBR... DEPARTAMENTO" />
           </folding>
         </state>
       </provider>
@@ -704,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="92" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tablaMaterias.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -762,61 +742,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+    <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="289" column="0" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        <state relative-caret-position="2285">
+          <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
           <folding>
-            <marker date="1483967904223" expanded="true" signature="2014:2053" ph="select * fro... DOCENTE" />
-            <marker date="1483967904223" expanded="true" signature="2428:2480" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483967904223" expanded="true" signature="3186:3238" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1483967904223" expanded="true" signature="3659:3738" ph="select ID_CA... MATERIA" />
-            <marker date="1483967904223" expanded="true" signature="4180:4254" ph="select ID_FA... CARRERA" />
-            <marker date="1483967904223" expanded="true" signature="4831:4886" ph="select NOMBR... FACULTAD" />
-            <marker date="1483967904223" expanded="true" signature="5330:5381" ph="select NOMBR... where" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="114" column="72" selection-start-line="114" selection-start-column="72" selection-end-line="114" selection-end-column="72" />
-          <folding>
-            <marker date="1484000496980" expanded="true" signature="1455:1494" ph="select * fro... DOCENTE" />
-            <marker date="1484000496980" expanded="true" signature="1869:1921" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="2394:2438" ph="select * fro... NOMBRAMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="2840:2914" ph="select (HRST... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="3313:3391" ph="select ((HRS... SEGUIMIENTO" />
-            <marker date="1484000496980" expanded="true" signature="4018:4070" ph="select ID_MA... DOC_MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="4491:4570" ph="select ID_CA... MATERIA" />
-            <marker date="1484000496980" expanded="true" signature="5013:5087" ph="select ID_FA... CARRERA" />
-            <marker date="1484000496980" expanded="true" signature="5664:5719" ph="select NOMBR... FACULTAD" />
-            <marker date="1484000496980" expanded="true" signature="6163:6214" ph="select NOMBR... DEPARTAMENTO" />
+            <element signature="e#5845#5851#0#HTML" expanded="true" />
+            <element signature="e#5952#5958#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,13 +761,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
+    <entry file="file://$PROJECT_DIR$/models/nombramientodocente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="161" column="24" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="24" />
+        <state relative-caret-position="209">
+          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
           <folding>
-            <element signature="e#5845#5851#0#HTML" expanded="true" />
-            <element signature="e#5952#5958#0#HTML" expanded="true" />
+            <marker date="1484004261055" expanded="true" signature="1457:1496" ph="select * fro... DOCENTE" />
+            <marker date="1484004261055" expanded="true" signature="1871:1923" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="2396:2440" ph="select * fro... NOMBRAMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="2834:2908" ph="select (HRST... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="3307:3385" ph="select ((HRS... SEGUIMIENTO" />
+            <marker date="1484004261055" expanded="true" signature="4012:4064" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="4485:4564" ph="select ID_CA... MATERIA" />
+            <marker date="1484004261055" expanded="true" signature="5007:5081" ph="select ID_FA... CARRERA" />
+            <marker date="1484004261055" expanded="true" signature="5658:5713" ph="select NOMBR... FACULTAD" />
+            <marker date="1484004261055" expanded="true" signature="6157:6208" ph="select NOMBR... DEPARTAMENTO" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a401a596-0918-4e43-9133-3548237ee84a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf1b81c6-d8da-410b-8676-90c41ddace4a/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rptSeguimientoDocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="370" column="97" selection-start-line="370" selection-start-column="97" selection-end-line="370" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="84" column="103" selection-start-line="84" selection-start-column="103" selection-end-line="84" selection-end-column="103" />
+          <folding>
+            <marker date="1484069189931" expanded="true" signature="1442:1481" ph="select * fro... DOCENTE" />
+            <marker date="1484069189931" expanded="true" signature="1856:1908" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484069189931" expanded="true" signature="2379:2479" ph="select HRSTE... SEGUIMIENTO" />
+            <marker date="1484069189931" expanded="true" signature="3104:3156" ph="select ID_MA... DOC_MATERIA" />
+            <marker date="1484069189931" expanded="true" signature="3578:3657" ph="select ID_CA... MATERIA" />
+            <marker date="1484069189931" expanded="true" signature="4099:4173" ph="select ID_FA... CARRERA" />
+            <marker date="1484069189931" expanded="true" signature="4750:4805" ph="select NOMBR... FACULTAD" />
+            <marker date="1484069189931" expanded="true" signature="5249:5300" ph="select NOMBR... where" />
+            <marker date="1484069189931" expanded="true" signature="5789:5865" ph="select HRSTE... SEGUIMIENTO" />
+            <marker date="1484069189931" expanded="true" signature="7915:8419" ph="SELECT m.sig... docente" />
+            <marker date="1484069189931" expanded="true" signature="7915:8475" ph="SELECT m.sig... docente" />
           </folding>
         </state>
       </provider>
