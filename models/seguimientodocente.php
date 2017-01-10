@@ -82,7 +82,7 @@ class seguimientodocente_model
         if (isset($_GET['ID_DOCENTE'])) {
             $ID_DOCE = $_GET['ID_DOCENTE'];
         }
-        $consulta = $this->db->query("select ASIS, ADJ, CAT, OTROCARGO, SUM(HRSTEORIA), SUM(HRSPRACTICA)from SEGUIMIENTO where ID_DOCENTE=" . $ID_DOCE);
+        $consulta = $this->db->query("select * , (HRSTEORIA+HRSPRACTICA)TOTALSEM, ((HRSTEORIA+HRSPRACTICA)*4)TOTALMES from SEGUIMIENTO where ID_DOCENTE=" . $ID_DOCE);
         console_log($consulta);
         while ($filas = $consulta->fetch_assoc()) {
             $this->arregloSeguimiento[] = $filas;

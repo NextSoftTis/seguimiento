@@ -158,19 +158,23 @@
                     <div class="row">
                         <table>
                             <tbody>
+                            <?php
+                            foreach ($arregloSeguimientoD as $segui) {
+                            ?>
                             <tr>
                                 <td width="21%"><b>CATEGORIA DOCENTE</b></td>
-                                <td>A(Catedrático)</td>
-                                <td width="3%"><input type="checkbox"></td>
-                                <td>B(Adjunto)</td>
-                                <td width="3%"><input type="checkbox"></td>
-                                <td>C(Asistente)</td>
-                                <td width="3%"><input type="checkbox"></td>
-                                <td>Auxiliar Docencia</td>
-                                <td width="3%"><input type="checkbox"></td>
-                                <td>Otro cargo UMSS</td>
-                                <td>___________</td>
+                                <td>A(Catedrático): <?= ($segui['CAT']) ?></td>
+<!--                                <td width="3%">--><?//= ($segui['ASIS']) ?><!--</td>-->
+                                <td>B(Adjunto): <?= ($segui['ADJ']) ?></td>
+<!--                                <td width="3%"><input type="checkbox"></td>-->
+                                <td>C(Asistente): <?= ($segui['ASIS']) ?></td>
+<!--                                <td width="3%"><input type="checkbox"></td>-->
+                                <td>Auxiliar Docencia:</td>
+<!--                                <td width="3%"><input type="checkbox"></td>-->
+                                <td>Otro cargo UMSS: <?= ($segui['OTROCARGO']) ?></td>
+<!--                                <td>___________</td>-->
                             </tr>
+
                             </tbody>
                         </table>
                     </div>
@@ -353,9 +357,7 @@
                         <table>
                             <tbody>
 
-                            <?php
-                            foreach ($arregloSeguimientoD as $segui) {
-                            ?>
+
 
                             <tr>
                                 <td width="3%">Hrs. Teoria: <?= strtoupper($segui['HRSTEORIA']) ?></td>
@@ -365,39 +367,39 @@
                                 <td width="3%">RESUMEN: </td>
                             </tr>
                             <tr>
-                                <td width="3%">Hrs. de Investigación: <?= strtoupper($segui['HRSPRACTICA']) ?></td>
-                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['HRSPRACTICA']) ?></td>
-                                <td width="3%">Hrs. de Servicio Acad.: <?= strtoupper($segui['HRSPRACTICA']) ?></td>
-                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['HRSPRACTICA']) ?></td>
-                                <td width="10%">TOTAL HORAS/SEMANA TRABAJADAS</td>
+                                <td width="3%">Hrs. de Investigación: <?= strtoupper($segui['HRSINVESTIGACION']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF2']) ?></td>
+                                <td width="3%">Hrs. de Servicio Acad.: <?= strtoupper($segui['HRSSERVICIOACADEMICO']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF3']) ?></td>
+                                <td width="10%">TOTAL HORAS/SEMANA TRABAJADAS: <?= strtoupper($segui['TOTALSEM']) ?></td>
                             </tr>
                             <tr>
-                                <td width="3%">Hrs. Extensión</td>
-                                <td width="3%">R.C.F.Nº</td>
-                                <td width="3%">Hrs. de Producc. Acad.</td>
-                                <td width="3%">R.C.F.Nº</td>
-                                <td width="10%">TOTAL HORAS/MES TRABAJADAS</td>
+                                <td width="3%">Hrs. Extensión: <?= strtoupper($segui['HRSEXTENCION']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF4']) ?></td>
+                                <td width="3%">Hrs. de Producc. Acad.: <?= strtoupper($segui['HRSPRODUCACAD']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF5']) ?></td>
+                                <td width="10%">TOTAL HORAS/MES TRABAJADAS: <?= strtoupper($segui['TOTALMES']) ?></td>
                             </tr>
                             <tr>
-                                <td width="3%">Hrs. Servicio</td>
-                                <td width="3%">R.C.F.Nº</td>
-                                <td width="3%">Hrs.Administ.Acad.</td>
-                                <td width="3%">R.C.F.Nº</td>
-                                <td width="10%">TOTAL HORAS AUTORIZADAS</td>
+                                <td width="3%">Hrs. Servicio: <?= strtoupper($segui['HRSSERVICIO']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF6']) ?></td>
+                                <td width="3%">Hrs.Administ.Acad.: <?= strtoupper($segui['HRSADMINACAD']) ?></td>
+                                <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF7']) ?></td>
+                                <td width="10%">TOTAL HORAS AUTORIZADAS: <?= strtoupper($segui['HRSAUTORIZADAS']) ?></td>
                             </tr>
                             <tr>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td width="10%">TIEMPO PARCIAL</td>
+                                <td width="10%">TIEMPO PARCIAL: <?= strtoupper($segui['TIEMPOPARCIAL']) ?></td>
                             </tr>
                             <tr>
-                                <td>Observaciones</td>
+                                <td>Observaciones: <?= strtoupper($segui['OBSERVACIONES']) ?></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td width="10%">DEDICACION EXCLUSIVA</td>
+                                <td width="10%">DEDICACION EXCLUSIVA: <?= strtoupper($segui['DEDICACIONEXCLUSIVA']) ?></td>
                             </tr>
                             <?php } ?>
                             </tbody>
@@ -445,36 +447,6 @@
                         </table>
                     </div>
 
-
-                    <!--                                <td rowspan="2" width="10%"><h6>FACULTAD</h6></td>-->
-                    <!--                -->
-                    <!--                                <ul>-->
-                    <!--                                    --><?php
-                    //                                    foreach ($arregloDocente as $Docente) { ?>
-                    <!--                                        <li> --><? // //= $Docente['NOMBRE_DOC'] ?><!--</li>-->
-                    <!--                                        <li> -->
-                    <? // //= $Docente['APELLPATERNO_DOC'] ?><!--</li>-->
-                    <!--                -->
-                    <!--                                    --><?php //} ?>
-                    <!--                                </ul>-->
-                    <!--                                <ul>-->
-                    <!--                                    --><?php
-                    //                                    foreach ($arregloMateria as $Materia) { ?>
-                    <!--                                        <li> --><? // //= $Materia['NOM_MATE'] ?><!--</li>-->
-                    <!--                                        <li> --><? // //= $Materia['APELLPA_DOC'] ?><!--</li>-->
-                    <!--                -->
-                    <!--                                    --><?php //} ?>
-                    <!--                                </ul>-->
-                    <!--                -->
-                    <!--                -->
-                    <!--                                <ul>-->
-                    <!--                                    --><?php
-                    //                                    foreach ($arregloHorario as $Horario) { ?>
-                    <!--                                        <li> --><? // //= $Horario['NOMBRE_DOC'] ?><!--</li>-->
-                    <!--                                        <li> --><? // //= $horario['APELLPA_DOC'] ?><!--</li>-->
-                    <!--                -->
-                    <!--                                    --><?php //} ?>
-                    <!--                </ul>-->
 
                 </div>
         </div>
