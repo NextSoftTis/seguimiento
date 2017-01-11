@@ -9,21 +9,16 @@ if (isset($_SESSION['usuario'])) {
     $seguimientoDocente = new seguimientodocente_model();
 
     $arregloDocentes = $seguimientoDocente->get_docente();
-//    $arregloFacultad = $seguimientoDocente->get_facultad()
 
-//    $ID_DOC = $_GET['ID_DOCENTE'];
-  //  echo $ID_DOC;
     $arregloFacultades = $seguimientoDocente->get_facultadDocente();
+    $arregloSeguimientoD = $seguimientoDocente->get_seguimiento();
+    $arregloSeguimientoHrs = $seguimientoDocente->get_hora();
 
-
-
-    //$arregloDocentesRoles = $seguimientoDocente->get_docente_rol();
-
-    //$arregloMateria = $seguimientoDocente->get_materia();
-//    $arregloGrupo = $seguimientoDocente->get_grupo();
-//    $arregloHorarioMateria = $seguimientoDocente->get_horario_materia();
-//    $arregloFacultad = $seguimientoDocente->get_facultad();
-//    $arregloCarrera = $seguimientoDocente->get_carrera();
+    //nuevo
+    $IDDocente = $_GET['ID_DOCENTE'];
+    $arregloSeguimientoDocentesHorario = $seguimientoDocente->cargar_horario_docente(!empty($IDDocente)?$IDDocente:0);
+    $arregloHorarios = $seguimientoDocente->get_horarios();
+    $arregloDiasSemana = $seguimientoDocente->get_dias();
 
 
 //Llamada a la vista
