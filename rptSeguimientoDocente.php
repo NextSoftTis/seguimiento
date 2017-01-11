@@ -12,8 +12,13 @@ if (isset($_SESSION['usuario'])) {
 
     $arregloFacultades = $seguimientoDocente->get_facultadDocente();
     $arregloSeguimientoD = $seguimientoDocente->get_seguimiento();
+    $arregloSeguimientoHrs = $seguimientoDocente->get_hora();
 
-
+    //nuevo
+    $IDDocente = $_GET['ID_DOCENTE'];
+    $arregloSeguimientoDocentesHorario = $seguimientoDocente->cargar_horario_docente(!empty($IDDocente)?$IDDocente:0);
+    $arregloHorarios = $seguimientoDocente->get_horarios();
+    $arregloDiasSemana = $seguimientoDocente->get_dias();
 
 
 //Llamada a la vista

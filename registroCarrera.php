@@ -1,4 +1,4 @@
-<?p<?php session_start();
+<?php session_start();
     function console_log( $data ){
             echo '<script>';
             echo 'console.log('. json_encode( $data ) .')';

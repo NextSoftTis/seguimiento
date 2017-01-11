@@ -18,6 +18,13 @@
             text-align: left;
         }
 
+        .tableHorario {
+            border: 1px solid #000;
+        }
+        .tableHorario tr,.tableHorario  td {
+            border: 1px solid #000;
+        }
+
         /*div{*/
         /*width: 200px;*/
         /*padding: 25px 0;*/
@@ -126,8 +133,8 @@
                                 <th width="10%">SIGLA</th>
                                 <th width="10%">H.Teor.</th>
                                 <th width="10%">H.Prac.</th>
-                                <th width="5%">Anual</th>
-                                <th width="5%">Semestral</th>
+<!--                                <th width="5%">Anual</th>-->
+<!--                                <th width="5%">Semestral</th>-->
                             </tr>
                             </thead>
                             <tbody>
@@ -143,10 +150,15 @@
                                     <td class="counterCell">.-</td>
                                     <td width="20%" height="2"><?= strtoupper($facultad->NOMBRE_MATERIA) ?></td>
                                     <td width="10%" height="2"><?= strtoupper($facultad->SIGLA_MATERIA) ?></td>
-                                    <td width="5%" height="2"><?= strtoupper($facultad->HRSTEORIA) ?></td>
-                                    <td width="5%" height="2"><?= strtoupper($facultad->HRSPRACTICA) ?></td>
-                                    <td><input type="checkbox"></td>
-                                    <td><input type="checkbox" checked></td>
+
+
+                                    <?php
+                                     foreach ($arregloSeguimientoHrs  as $hrs) { ?>
+                                    <td width="5%" height="2"><?= strtoupper($hrs['HRSTEORIA']) ?></td>
+                                    <td width="5%" height="2"><?= strtoupper($hrs['HRSPRACTICA']) ?></td>
+                                    <?php } ?>
+<!--                                    <td><input type="checkbox"></td>-->
+<!--                                    <td><input type="checkbox" checked></td>-->
                                 </tr>
 
                             <?php } ?>
@@ -180,7 +192,7 @@
                     </div>
 
                     <div class="row">
-                        <table class="table table-bordered">
+                        <table class="tableHorario">
                             <thead>
                             <tr>
                                 <th rowspan="2" class="text-center" width="10%">HORAS</th>
@@ -226,128 +238,33 @@
                                 <td class="text-center" width="3%">AL</td>
                                 <td class="text-center" width="3%">AU</td>
                             </tr>
-                            <tr>
-                                <td>06:45-07:30</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
 
-                            </tr>
-                            <tr>
-                                <td>07:30-08:15</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
+                            <?php
+                            foreach ($arregloHorarios as $Horario) { ?>
+                                <tr>
+                                    <td><?= $Horario['INICIO_HORARIO'] ?>-<?= $Horario['FIN_HORARIO'] ?></td>
+                                    <?php
+                                    foreach ($arregloDiasSemana as $DiaSemana) {
+                                        foreach ($arregloSeguimientoDocentesHorario as $SeguimientoDocenteHorario) {
+                                            ?>
+                                            <?php
+                                            if ($Horario['INICIO_HORARIO'] == $SeguimientoDocenteHorario['INICIO_HORARIO'] and $DiaSemana['NOM_DIA'] == $SeguimientoDocenteHorario['nom_dia']) {
+                                                ?>
+                                                <td class="text-center" width="3%"><?= $SeguimientoDocenteHorario['sigla_materia']?></td>
+                                                <td class="text-center" width="3%"><?= $SeguimientoDocenteHorario['grupo']?></td>
+                                                <td class="text-center" width="3%"></td>
+                                                <td class="text-center" width="3%"></td>
+                                                <td class="text-center" width="3%"><?= $SeguimientoDocenteHorario['NOMBRE_AULA']?></td>
+                                            <?php }
+                                            ?>
+                                            <?php
+                                        } ?>
+                                    <?php }
+                                    ?>
 
-                            </tr>
-                            <tr>
-                                <td>08:15-09:00</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>09:00-09:45</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>09:45-10:30</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>10:30-11:15</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>11:15-12:00</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>12:00-12:45</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>12:45-13:30</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>13:30-14:15</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>14:15-15:00</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>15:00-15:45</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>15:45-16:30</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>16:30-17:15</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>17:15-18:00</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>18:00-18:45</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>18:45-19:30</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>19:30-20:15</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>20:15-21:00</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
-                            <tr>
-                                <td>21:00-21:45</td>
-                                <?php for ($i = 0; $i < 30; $i++) { ?>
-                                    <td class="text-center" width="3%"></td>
-                                <?php } ?>
-                            </tr>
+
+                                </tr>
+                            <?php } ?>
                             </tbody>
 
                         </table>
@@ -360,8 +277,8 @@
 
 
                             <tr>
-                                <td width="3%">Hrs. Teoria: <?= strtoupper($segui['HRSTEORIA']) ?></td>
-                                <td width="3%">Hrs. Práctica: <?= strtoupper($segui['HRSPRACTICA']) ?></td>
+                                <td width="3%">Hrs. Teoria: <?= strtoupper($segui['sum(HRSTEORIA)']) ?></td>
+                                <td width="3%">Hrs. Práctica: <?= strtoupper($segui['sum(HRSPRACTICA)']) ?></td>
                                 <td width="3%">Hrs. Producción: <?= strtoupper($segui['HRSPRODUCCION_']) ?></td>
                                 <td width="3%">R.C.F.Nº: <?= strtoupper($segui['RCF1']) ?></td>
                                 <td width="3%">RESUMEN: </td>
