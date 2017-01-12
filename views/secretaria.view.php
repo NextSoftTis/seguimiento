@@ -55,6 +55,10 @@
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="listaCarreras.php">Carreras</a></li>
 
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="listaMaterias.php">Materias</a></li>
+
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="listaDepartamentos.php">Departamentos</a></li>
+
                     </ul>
 
                 </div>
@@ -67,8 +71,6 @@
                     <ul class="dropdown-menu inline-block" role="menu" aria-labelledby="dropdownMenu1">
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroDocente.php">Registro Docente</a></li>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="cargos.php">Registro Roles</a></li>
-
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroSecretaria.php">Registro secretaria</a></li>
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroFacultad.php">Registro Facultad</a></li>
@@ -77,9 +79,13 @@
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroMaterias.php">Registro Materias</a></li>
 
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="registroDepartamento.php">Registro Departamentos</a></li>
+							
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="registroGrupos.php">Registro Grupos</a></li>
 
                         <li role="presentation"><a role="menuitem" tabindex="-1" href="listaDocentesAsignacion.php">asignacion docente grupo</a></li>
+
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="registrarAula.php">Registro aulas</a></li>
                     </ul>
 
                 </div>
@@ -91,28 +97,28 @@
                 <ul>
 
                     <li>
-                        <a href="#" onclick="window.open('manualPDF.pdf')">
+                        <a href="#" onclick="window.open('ManualdelSistemaWeb.pdf')">
                             <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>
                             ManualPDF
                         </a>
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="ManualdelSistemaWeb.docx" target="_blank">
                             <i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i>
                             ManualDOC
                         </a>
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="contactos.php">
                             <i class="fa fa-users fa-2x" aria-hidden="true"></i>
                             Contacto
                         </a>
                     </li>
 
                     <li>
-                        <a href="">
+                        <a href="varios.php">
                             <i class="fa fa-question-circle fa-2x" aria-hidden="true"></i>
                             Varios
                         </a>

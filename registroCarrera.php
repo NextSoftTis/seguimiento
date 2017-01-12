@@ -6,7 +6,7 @@
         };
    require 'funciones.php';
 
-    $conexion = conexion('bd_seguimiento','root','');
+    $conexion = conexion('bd_seguimiento','seg_user', 'seg_pass');
 
     if (!$conexion) {
         die();
@@ -30,7 +30,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $siglaCarrera           = $_POST['siglaCarrera'];
         $dptoCarrera            = $_POST['dptoCarrera'];
 
-        $enlace = mysqli_connect("localhost", "root", "", "bd_seguimiento");
+        $enlace = mysqli_connect("localhost", 'seg_user', 'seg_pass', "bd_seguimiento");
         if (!$enlace) {
             echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
             echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;
