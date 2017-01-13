@@ -4,7 +4,11 @@ include("views/global/header.view.php");
 
 $idDoc=$_REQUEST['valor'];
 
+<<<<<<< HEAD
+$mysqli=new mysqli('localhost','bd_seguimiento','seg_user', 'seg_pass');
+=======
 $mysqli=new mysqli("localhost","seg_user","seg_pass","bd_seguimiento");
+>>>>>>> fb304c120f85af74652c3352f641a1f1b441cd2e
 //$query="SELECT * FROM doc_materia WHERE ID_DOCENTE='$idDoc'";
 $query="SELECT * 
         FROM doc_materia
@@ -27,5 +31,10 @@ while ($row=$resultado->fetch_array(MYSQLI_BOTH)) {
         <td><a href="asignarGrupo.php?id='.$row['ID_DOCMATERIA'].'&idMateria='.$row['ID_MATERIA'].'&idDoc='.$row['ID_DOCENTE'].'" class="btn btn-link">Asignar Grupo</a></td>
         <td><a href="gruposAsignados.php?id='.$row['ID_DOCMATERIA'].'&idMateria='.$row['ID_MATERIA'].'&idDoc='.$row['ID_DOCENTE'].'" class="btn btn-link">ver grupos Asignados</a></td>
     </tr>';
+<<<<<<< HEAD
+    }
+echo '</table>';
+=======
 }
 echo '</table>';
+>>>>>>> fb304c120f85af74652c3352f641a1f1b441cd2e
