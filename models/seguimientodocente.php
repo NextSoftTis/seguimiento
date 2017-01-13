@@ -216,7 +216,8 @@ class seguimientodocente_model
 //                }
 //            }
             $arr_length = count($this->arregloIdMateria);
-            for ($i = 0; $i < $arr_length; $i++) {
+			if ($arr_lenght != 0) {
+				 for ($i = 0; $i < $arr_length; $i++) {
                 //
 
 //                print_r($this->arreglohrs);
@@ -228,7 +229,10 @@ class seguimientodocente_model
                 $nones = $info;
                 console_log($nones);
                 $this->arregloInfoDocentes[] = $info;
-            }
+            }	
+				
+			}
+           
         } else {
             $info = array('NOMBRE_FACULTAD' => '', 'NOMBRE_DPTO' => '', 'NOMBRE_CARRERA' => '', 'NOMBRE_MATERIA' => '', 'SIGLA_MATERIA' => '');
 //            , 'HRSTEORIA' => '', 'HRSPRACTICA' => ''
