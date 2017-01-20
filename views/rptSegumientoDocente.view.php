@@ -9,49 +9,36 @@
     <meta charset="UTF-8">
     <script type="text/javascript" src="estilos/js/jquery.min.js"></script>
     <link rel="stylesheet" href="estilos/css/reporte.css" >
+
+    <script language="Javascript">
+        function imprSelec(nombre) {
+            var ficha = document.getElementById(nombre);
+            var ventimp = window.open(' ', 'popimpr');
+            ventimp.document.write( ficha.innerHTML );
+            ventimp.document.close();
+            ventimp.print( );
+            ventimp.close();
+        }
+    </script>
+    <input type="button" value="Imprimir" onclick="javascript:imprSelec('seleccion')" />
+    <button type="button" onClick="location.href='reporteDocente.php'" class="btn btn-danger btn-sm">Salir</button>
+<!--    <a href="javascript:imprSelec('seleccion')" >Imprimir texto</a>-->
+
+    <!--    <script type="text/javascript">-->
+<!--        function imprSelec(muestra)-->
+<!--        {var ficha=document.getElementById(muestra);var ventimp=window.open(' ','popimpr');ventimp.document.write(ficha.innerHTML);ventimp.document.close();ventimp.print();ventimp.close();}-->
+<!--    </script>-->
+<!--    <a href="javascript:imprSelec('muestra')">Imprimir</a>-->
+<!--    <input type="button" value="Imprimir" onclick="javascript:window.print()" />-->
+
 </head>
 <body>
 
 
-<style type="text/css">
-    td {
-        font-size: 10px;
-    }
-
-    body {
-        text-align: left;
-    }
 
 
-    #contenido {
-        width: 1200px;
-        margin: 0 auto 0 auto;
-        text-align: left;
-    }
-
-    .tableHorario {
-        border: 1px solid #000;
-    }
-
-    .tableHorario tr, .tableHorario td {
-        border: 1px solid #000;
-    }
-
-    /*div{*/
-    /*width: 200px;*/
-    /*padding: 25px 0;*/
-    /*margin: 0;*/
-    /*}*/
-
-</style>
 
 
-<script type="text/javascript">
-    function imprSelec(muestra)
-    {var ficha=document.getElementById(muestra);var ventimp=window.open(' ','popimpr');ventimp.document.write(ficha.innerHTML);ventimp.document.close();ventimp.print();ventimp.close();}
-</script>
-<!--<a href="javascript:imprSelec('muestra')">Imprimir</a>-->
-<input type="button" value="Imprimir" onclick="javascript:window.print(muestra)" />
 <!--<input type="button" value="Imprimir" onclick="javascript:window.print()" />-->
 
 
@@ -87,15 +74,51 @@
 <!--    }-->
 <!--</script>-->
 <!--<div class="main">-->
-    <div id='muestra'>
+    <div id='seleccion'>
 
+        <style type="text/css">
+            td {
+                font-size: 10px;
+            }
+
+            body {
+                text-align: left;
+            }
+
+
+            #contenido {
+                width: 1200px;
+                margin: 0 auto 0 auto;
+                text-align: left;
+            }
+
+            .tableHorario {
+                border: 1px solid #000;
+            }
+
+            .tableHorario tr, .tableHorario td {
+                border: 1px solid #000;
+            }
+
+            imprSelec() {
+                display:none;
+
+            }
+
+            /*div{*/
+            /*width: 200px;*/
+            /*padding: 25px 0;*/
+            /*margin: 0;*/
+            /*}*/
+
+        </style>
 
     <div class="container">
 <!--    <div class="main">-->
 
 <!--        <button type="button" onclick="imprSelec('contenido');" class="btn btn-primary btn-sm">Imprimir</button>-->
 <!--        <button type="button" onClick="location.href='reporteDocente.php'" class="btn btn-danger btn-sm">Salir</button>-->
-        <fieldset>
+<!--        <fieldset>-->
 
 
 
@@ -396,17 +419,18 @@
 
             </div>
     </div>
-</div>
-<style type="text/css">
-    table {
-        counter-reset: tableCount;
-    }
+        <style type="text/css">
+            table {
+                counter-reset: tableCount;
+            }
 
-    .counterCell:before {
-        content: counter(tableCount);
-        counter-increment: tableCount;
-    }
-</style>
+            .counterCell:before {
+                content: counter(tableCount);
+                counter-increment: tableCount;
+            }
+        </style>
+</div>
+
 </body>
 </html>
 
