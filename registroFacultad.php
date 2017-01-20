@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         $nombreFacultad      = $_POST['nombreFacultad'];
         $ubicacionFacultad   = $_POST['ubicacionFacultad'];
 
-        $enlace = mysqli_connect("localhost", 'seg_user', 'seg_pass', "bd_seguimiento");
+        $enlace = mysqli_connect('localhost','seg_user', 'seg_pass','bd_seguimiento');
 
         if (!$enlace) {
             echo "Error: No se pudo conectar a MySQL." . PHP_EOL;
@@ -29,6 +29,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $query = "INSERT INTO facultad(NOMBRE_FACULTAD, UBICACION_FACULTAD)
                        VALUES('$nombreFacultad','$ubicacionFacultad')";
                 mysqli_query($enlace,$query);
+				echo " <h4 align='center' style='color:blue;'>registro completo.</h4> ";
             }
         }
         mysqli_close($enlace);

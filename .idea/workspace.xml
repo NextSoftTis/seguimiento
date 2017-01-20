@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74acb993-037b-4aa6-830d-6a485ece1081" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actualizarAula.php" afterPath="$PROJECT_DIR$/actualizarAula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actualizarCarrera.php" afterPath="$PROJECT_DIR$/actualizarCarrera.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actualizarDocente.php" afterPath="$PROJECT_DIR$/actualizarDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/actualizarFacultad.php" afterPath="$PROJECT_DIR$/actualizarFacultad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cargos.php" afterPath="$PROJECT_DIR$/cargos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docente.php" afterPath="$PROJECT_DIR$/docente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eliminarDepartamento.php" afterPath="$PROJECT_DIR$/eliminarDepartamento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eliminarDocente.php" afterPath="$PROJECT_DIR$/eliminarDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eliminarFacultad.php" afterPath="$PROJECT_DIR$/eliminarFacultad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eliminarMateria.php" afterPath="$PROJECT_DIR$/eliminarMateria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/funciones.php" afterPath="$PROJECT_DIR$/funciones.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/horarioMateria.php" afterPath="$PROJECT_DIR$/horarioMateria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/importar.php" afterPath="$PROJECT_DIR$/importar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listaDepartamentos.php" afterPath="$PROJECT_DIR$/listaDepartamentos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listaMaterias.php" afterPath="$PROJECT_DIR$/listaMaterias.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/materiaDocente.php" afterPath="$PROJECT_DIR$/materiaDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/nombramientodocente.php" afterPath="$PROJECT_DIR$/models/nombramientodocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/seguimientodocente.php" afterPath="$PROJECT_DIR$/models/seguimientodocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modificarAula.php" afterPath="$PROJECT_DIR$/modificarAula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modificarCarrera.php" afterPath="$PROJECT_DIR$/modificarCarrera.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nombramiento.php" afterPath="$PROJECT_DIR$/nombramiento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrarAula.php" afterPath="$PROJECT_DIR$/registrarAula.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrarHorario.php" afterPath="$PROJECT_DIR$/registrarHorario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroCarrera.php" afterPath="$PROJECT_DIR$/registroCarrera.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroDepartamento.php" afterPath="$PROJECT_DIR$/registroDepartamento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroDocente.php" afterPath="$PROJECT_DIR$/registroDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroFacultad.php" afterPath="$PROJECT_DIR$/registroFacultad.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroMaterias.php" afterPath="$PROJECT_DIR$/registroMaterias.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroNombramieto.php" afterPath="$PROJECT_DIR$/registroNombramieto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registroSecretaria.php" afterPath="$PROJECT_DIR$/registroSecretaria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reporteDocente.php" afterPath="$PROJECT_DIR$/reporteDocente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguimiento.php" afterPath="$PROJECT_DIR$/seguimiento.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tablaMaterias.php" afterPath="$PROJECT_DIR$/tablaMaterias.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/global/header.view.php" afterPath="$PROJECT_DIR$/views/global/header.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/global/title.view.php" afterPath="$PROJECT_DIR$/views/global/title.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modificarDocente.view.php" afterPath="$PROJECT_DIR$/views/modificarDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/nombramiento.view.php" afterPath="$PROJECT_DIR$/views/nombramiento.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/registroDepartamento.view.php" afterPath="$PROJECT_DIR$/views/registroDepartamento.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/registroDocente.view.php" afterPath="$PROJECT_DIR$/views/registroDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/registroGrupos.view.php" afterPath="$PROJECT_DIR$/views/registroGrupos.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/registroSecretaria.view.php" afterPath="$PROJECT_DIR$/views/registroSecretaria.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/reporteDocente.view.php" afterPath="$PROJECT_DIR$/views/reporteDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" afterPath="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/secretaria.view.php" afterPath="$PROJECT_DIR$/views/secretaria.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/seguimiento.view.php" afterPath="$PROJECT_DIR$/views/seguimiento.view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/vistaPrincipal.view.php" afterPath="$PROJECT_DIR$/views/vistaPrincipal.view.php" />
+    </list>
+    <ignored path="seguimiento.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="seguimiento" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="rptSegumientoDocente.view.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seguimientodocente.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484934637924" expanded="true" signature="1738:1777" ph="select * fro... docente" />
+                <marker date="1484934637924" expanded="true" signature="2236:2288" ph="select ID_MA... doc_materia" />
+                <marker date="1484934637924" expanded="true" signature="2859:3948" ph="select ASIS,... seguimiento" />
+                <marker date="1484934637924" expanded="true" signature="4405:4522" ph="SELECT s.HRS... seguimiento" />
+                <marker date="1484934637924" expanded="true" signature="5185:5237" ph="select ID_MA... doc_materia" />
+                <marker date="1484934637924" expanded="true" signature="5724:5803" ph="select ID_CA... materia" />
+                <marker date="1484934637924" expanded="true" signature="6313:6387" ph="select ID_FA... carrera" />
+                <marker date="1484934637924" expanded="true" signature="7032:7087" ph="select NOMBR... facultad" />
+                <marker date="1484934637924" expanded="true" signature="7599:7650" ph="select NOMBR... departamento" />
+                <marker date="1484934637924" expanded="true" signature="9398:10030" ph="SELECT m.sig... docente" />
+                <marker date="1484934637924" expanded="true" signature="10380:10401" ph="select * fro... horario" />
+                <marker date="1484934637924" expanded="true" signature="10751:10800" ph="select DISTI... dia" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rptNombramientoDocente.view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/rptNombramientoDocente.view.php" />
+        <option value="$PROJECT_DIR$/views/rptSegumientoDocente.view.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seguimiento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74acb993-037b-4aa6-830d-6a485ece1081" name="Default" comment="" />
+      <created>1484934694123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484934694123</updated>
+      <workItem from="1484934696369" duration="6698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6698000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16240682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/rptNombramientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="196" column="38" selection-start-line="196" selection-start-column="38" selection-end-line="196" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/seguimientodocente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484934637924" expanded="true" signature="1738:1777" ph="select * fro... docente" />
+            <marker date="1484934637924" expanded="true" signature="2236:2288" ph="select ID_MA... doc_materia" />
+            <marker date="1484934637924" expanded="true" signature="2859:3948" ph="select ASIS,... seguimiento" />
+            <marker date="1484934637924" expanded="true" signature="4405:4522" ph="SELECT s.HRS... seguimiento" />
+            <marker date="1484934637924" expanded="true" signature="5185:5237" ph="select ID_MA... doc_materia" />
+            <marker date="1484934637924" expanded="true" signature="5724:5803" ph="select ID_CA... materia" />
+            <marker date="1484934637924" expanded="true" signature="6313:6387" ph="select ID_FA... carrera" />
+            <marker date="1484934637924" expanded="true" signature="7032:7087" ph="select NOMBR... facultad" />
+            <marker date="1484934637924" expanded="true" signature="7599:7650" ph="select NOMBR... departamento" />
+            <marker date="1484934637924" expanded="true" signature="9398:10030" ph="SELECT m.sig... docente" />
+            <marker date="1484934637924" expanded="true" signature="10380:10401" ph="select * fro... horario" />
+            <marker date="1484934637924" expanded="true" signature="10751:10800" ph="select DISTI... dia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/rptSegumientoDocente.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="53" column="70" selection-start-line="53" selection-start-column="70" selection-end-line="53" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -6,6 +6,9 @@
 
     <title>Sistema De Apoyo</title>
 
+    <script src="estilos/js/validate/additional-methods.js"></script>
+    <script src="estilos/js/validate/jquery.validate.js"></script>
+
     <!--INICIO BOOTSTRAP FONT-AWESOME-->
     <link rel="stylesheet" href="estilos/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="estilos/bootstrap/css/bootstrap.min.css">
@@ -43,6 +46,7 @@
  <!--   <link rel="stylesheet" type="text/css" href="estilos/js/select-bootstrap.css"></link>
     <script type="text/javascript" src="estilos/js/select-bootstrap.js"></script>-->
     <link rel="stylesheet" type="text/css" href="estilos/css/reporteDocente.css">
+
     <script src="estilos/js/marcus-jquery.js"></script>
     <script src="estilos/js/marcus-bootstrap.js"></script>
     <link href="estilos/js/marcus-bootstrap.css" rel="stylesheet"/>
@@ -76,23 +80,6 @@
     <link type="text/css" href="estilos/css/bootstrap.min.css" />
     <link type="text/css" href="estilos/css/bootstrap-timepicker.min.css" />
 
-
-
-    <script>
-        $('document').ready(function () {
-            function hora() {
-                $.ajax({
-                    type: 'GET',
-                    url: 'funciones.php',
-                    success: function ($hora) {
-                        $('#hora').html($hora);
-                        setTimeout(hora(),1000);
-                    }
-                });
-            }
-            setTimeout(hora(),1000);
-        });
-    </script>
 </head>
 
 <style type="text/css">
