@@ -1,5 +1,7 @@
 <?php include("views/global/header.view.php")?>
+<?php include('views/global/title.view.php')?>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <div class="nt-registroCarrera" >
     <fieldset>
@@ -26,7 +28,7 @@
 			
 			<div class="form-group col-sm-6">
                 <label>(*) Departamento Carrera:</label>
-                <input class="form-control input-global" type="text" id="dptoCarrera" name="dptoCarrera" value="<?php echo $carreras['DPTO_CARRERA']; ?>" required>
+                <input class="form-control input-global" type="text" id="dptoCarrera" name="dptoCarrera" value="<?php echo $departamentos['NOMBRE_DPTO']; ?>" required>
             
             </div>
             
@@ -36,7 +38,8 @@
             <center>
                     <div class="btn-inline">
                     <button class="btn btn-default btn-global" type="submit">Guardar</button>
-                    <button class="btn btn-default btn-global" type="submit" >Cancelar</button>
+                    <button type="button" onClick="location.href='listaCarreras.php'" class="btn cancelar btn-global" >Cancelar</button>
+
                     </div>
             </center>
 			

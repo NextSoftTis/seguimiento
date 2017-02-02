@@ -1,6 +1,5 @@
-<?php include("views/global/header.view.php")?>
+<?php include('views/global/header.view.php')?>
 <?php include('views/global/title.view.php')?>
-
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -8,7 +7,7 @@
     <fieldset>
     <legend>REGISTRO DE MATERIAS:</legend>
         
-        <form action="" method="POST" onsubmit="return validate();">
+        <form action="actualizarMateria.php?id=<?php echo $materias['ID_MATERIA'] ?>" method="POST" onsubmit="return validate();">
            			
 			<div class="form-group col-sm-12">
                 <label>(*) Carrera:</label>
@@ -19,15 +18,15 @@
                 </select>
             
             </div>
-           <div class="form-group col-sm-6">
+
+			<div class="form-group col-sm-6">
                 <label>(*) Nombre Materia:</label>
-                <input class="form-control input-global" type="text" id="nombreMateria" name="nombreMateria" required>
-            
+			    <input class="form-control input-global" type="text" id="nombreMateria" name="nombreMateria" value="<?php echo $materias['NOMBRE_MATERIA']; ?>" required>
             </div>
             
             <div class="form-group col-sm-6">
                 <label>(*) Sigla Materia:</label>
-                <input class="form-control input-global" type="text" id="siglaMateria" name="siglaMateria" required>
+				<input class="form-control input-global" type="text" id="siglaMateria" name="siglaMateria" value="<?php echo $materias['SIGLA_MATERIA']; ?>" required>
             </div>
 			
 			<div class="form-group col-sm-12">
@@ -81,7 +80,7 @@
             <center>
                     <div class="btn-inline">
                     <button class="btn btn-default btn-global" type="submit">Guardar</button>
-                    <a class="btn btn-default btn-global" href="espacioSecretaria.php">Cancelar</a>
+                    <a class="btn btn-default btn-global" href="listaMaterias.php">Cancelar</a>
                     </div>
             </center>
             
@@ -140,6 +139,4 @@ function validate()
         }
     }
 </script>
-
-
 

@@ -1,6 +1,8 @@
 <?php include("views/global/header.view.php")?>
 <?php include('views/global/title.view.php')?>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <div class="container nt-form-horario">
         
@@ -9,7 +11,7 @@
             <fieldset class="form-group ">
                 <LEGEND>Registro de Horario</LEGEND>
 
-                <div class="form-group col-md-3">
+                <div class="form-group col-md-4">
                     <label>(*) Periodo:</label>
                 </div >
 
@@ -17,13 +19,13 @@
                     <input name="periodo" type="number" min="00" max="60" step="5"  required="required" class="form-control input-global">
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-5">
                     <label> En minutos</label>
                     <br>
                     <br>
                 </div >
 
-                <div class="form-group div-form-ape-pat col-md-3">
+                <div class="form-group div-form-ape-pat col-md-4">
                     <label >Hora Inicial:</label>
 				</div>
 
@@ -32,7 +34,7 @@
                 </div>
                 <br>
                 <br>
-                <div class=" form-group col-md-3">
+                <div class=" form-group col-md-4">
                     <label for="lab-ape-mat" >Hora Final:</label>
                 </div>  
 
@@ -67,7 +69,7 @@
             <div class=" form-group col-md-offset-3">
                 <button type="submit" class="btn registrar btn-global" >Registrar</button>
 
-                <button href="" onclick="salir()" class="btn cancelar btn-global" >Cancelar</button>
+                <a class="btn btn-default btn-global" href="espacioSecretaria.php">Cancelar</a>
 
             </div>
 

@@ -1,25 +1,10 @@
 <?php include("views/global/header.view.php")?>
+<?php include("views/global/title.view.php")?>
 <script>
     $(document).ready(function() {
         $("#fec-nac").datepicker();
     });
 </script>
-<!--<script type="text/javascript">-->
-<!--    function myFunction(){-->
-<!--        var x = document.getElementById('miDiv');-->
-<!---->
-<!--        x.style.display = 'none';-->
-<!---->
-<!--    }-->
-<!--</script>-->
-<!--<script type="text/javascript">-->
-<!--    function miFunction(){-->
-<!--        var x = document.getElementById('miDiv');-->
-<!--        if(x.style.display === 'none'){-->
-<!--            x.style.display = 'block';-->
-<!--        }-->
-<!--    }-->
-<!--</script>-->
 <div class="contenedor">
     <div class="container nt-form-docente ">
 
@@ -206,8 +191,8 @@
                     <label for="lab-ded">Dedicación:</label>
                     <select class="form-control select-global" name="dedicacion">
                         <?php if($docentes['DEDICACION_DOC'] == "PARCIAL"): ?>
-                            <option value="PARCIAL" onclick="myFunction()">Parcial</option>
-                            <option value="EXCLUSIVO" onclick="miFunction()">Exclusivo</option>
+                            <option value="PARCIAL">Parcial</option>
+                            <option value="EXCLUSIVO">Exclusivo</option>
                         <?php endif;?>
                         <?php if($docentes['DEDICACION_DOC'] == "EXCLUSIVO"):  ?>
                             <option value="EXCLUSIVO">Exclusivo</option>
@@ -367,7 +352,7 @@
                             <label>TOTAL HORAS AUTORIZADAS:</label>
                         </div>
                         <div>
-                            <input type="text" disabled="disabled" class="form-control" name="totalHorasAutorizadas" value="160">
+                            <input type="text" class="form-control" name="totalHorasAutorizadas" value="160">
                         </div>
                         <div>
                             <label>TIEMPO PARCIAL:</label>
@@ -379,7 +364,7 @@
                             <label>DEDICACION EXCLUSIVA:</label>
                         </div>
                         <div>
-                            <input type="text" class="form-control" name="dedicacionExclusiva" value="<?php echo $totalExclusivo ?>">
+                            <input type="text" class="form-control" name="dedicacionExclusiva" value="<?php echo $seguimiento['DEDICACIONEXCLUSIVA']; ?>">
                         </div>
                     </div>
 

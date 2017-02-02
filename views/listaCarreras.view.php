@@ -1,30 +1,7 @@
 <?php include('views/global/header.view.php')?>
+<?php include('views/global/title.view.php')?>
 
-
-<div class="container nt-menu-titulo">
-        <div class="row">
-
-            <div class="col-sm-4">
-                <img src="images/logo2.png" class="img-responsive">
-            </div>
-
-            <div class="col-sm-4">
-                <h4 class="titulo"><strong>Sistema de Seguimiento y Nombramiento Docente</strong></h4>
-            </div>
-
-            <div class="col-sm-4">
-
-                <form action="./espacioSecretaria.php" class="navbar-form navbar-right" >
-                <p style="color: white">
-                    <i class="fax" aria-hidden="true"></i>
-                </p>
-                <input type="submit" style="margin-top:15px" class="btn btn-global" name="" value="atras">
-                </form>
-
-            </div>
-
-        </div>
-    </div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style type="text/css">
 .fax {
@@ -60,9 +37,10 @@ div.nt-menu-titulo div.row div.col-sm-4 h4.titulo {
 </style>
 
  <div class="container nt-plantel-doc ">
-    <div class="container col-md-12 table table-hover">
+ <LEGEND> <strong>LISTA DE CARRERAS</strong></LEGEND>
+    <div class="container col-md-12 table table-hover tabla-lista-reporte">
     <table class="table table-hover" id="tablaDocente">
-      <LEGEND> <strong>LISTA DE CARRERAS</strong></LEGEND>
+      
         
 		<thead>
       <tr>

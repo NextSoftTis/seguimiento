@@ -1,6 +1,5 @@
 <?php include('views/global/header.view.php')?>
 
-
 <div class="container nt-menu-titulo">
         <div class="row">
 
@@ -21,9 +20,9 @@
     
   <div class="container text-center nt">
       <ul class="breadcrumb center-block">
-          <li><a onclick="location.href='login.php'">Inicio</a></li>
-          <li><a onclick="location.href='btDocente.php'">Docentes</a></li>
-          <li><a onclick="location.href='contactos.php'">Información</a></li>
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="btDocente.php">Docentes</a></li>
+          <li><a href="informacionIndex.php">Información</a></li>
       </ul>
     <button id="button" class="btn btn-global">Ingresar</button>
   </div>

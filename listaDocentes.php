@@ -1,9 +1,8 @@
-<?php
-
+<?php session_start();
+if(isset($_SESSION['usuario'])){
+	
     require 'funciones.php';
-
     $conexion = conexion('bd_seguimiento','seg_user', 'seg_pass');
-
     if (!$conexion) {
         die();
     }
@@ -11,14 +10,9 @@
     $statement->execute();
     $docentes = $statement->fetchAll();
 
-    /*if(!isset($_GET['var_js']) || empty($_GET['var_js'])){
-        echo "Error!!!";
-    } else{
-        echo "Exito!!!";
-        $idDocente = $_GET['var_js'];
-        print_r($idDocente);
-    }*/
-
     require 'views/listaDocentes.view.php';
+} else {
+	header('Location: login.php');
+}
 
 

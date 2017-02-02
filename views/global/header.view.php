@@ -1,6 +1,7 @@
 <head>
 
     <meta charset="utf-8">
+    <meta lang="es">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -40,6 +41,8 @@
     <link rel="stylesheet" type="text/css" href="estilos/css/asignarGrupo.css">
     <link rel="stylesheet" type="text/css" href="estilos/css/gruposAsignados.css">
 	<link rel="stylesheet" type="text/css" href="estilos/css/registroGrupos.css">
+    <link rel="stylesheet" type="text/css" href="estilos/css/listaDocenteAsignacion.css">
+    <link rel="stylesheet" type="text/css" href="estilos/css/reporte.css">
 
 	
 	
@@ -62,7 +65,6 @@
     <script src="estilos/js/cookie/jquery.cookie.js" ></script>
     <script src="estilos/js/moment.js"></script>
 
-    <script src="estilos/js/timer.js"></script>
     <script src="estilos/js/buscaMaterias.js"></script>
     <script src="estilos/js/buscarDocente.js"></script>
     <script src="estilos/js/buscarDocente/obtener.js"></script>
